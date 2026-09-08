@@ -1,0 +1,304 @@
+{
+    "jobName": "s3-dtsc-671-transcribe-input-fa1-2026-cnielson-DTSC-671-CurtisNielson-FerrisBuellerQuote-Transcribe-mp4-5d77a7c814d75e6b00b9e75f7339db18-1a8aadd8fa7d95c8",
+    "accountId": "548722509238",
+    "status": "COMPLETED",
+    "results": {
+        "transcripts": [
+            {
+                "transcript": "Life moves pretty fast. If you don't stop and look around once in a while, you could miss it."
+            }
+        ],
+        "items": [
+            {
+                "id": 0,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.993",
+                        "content": "Life"
+                    }
+                ],
+                "start_time": "4.65",
+                "end_time": "4.92"
+            },
+            {
+                "id": 1,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.986",
+                        "content": "moves"
+                    }
+                ],
+                "start_time": "4.92",
+                "end_time": "5.32"
+            },
+            {
+                "id": 2,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.987",
+                        "content": "pretty"
+                    }
+                ],
+                "start_time": "5.32",
+                "end_time": "5.6"
+            },
+            {
+                "id": 3,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.971",
+                        "content": "fast"
+                    }
+                ],
+                "start_time": "5.6",
+                "end_time": "6.28"
+            },
+            {
+                "id": 4,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "If"
+                    }
+                ],
+                "start_time": "6.73",
+                "end_time": "6.88"
+            },
+            {
+                "id": 6,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.985",
+                        "content": "you"
+                    }
+                ],
+                "start_time": "6.88",
+                "end_time": "7.0"
+            },
+            {
+                "id": 7,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "don't"
+                    }
+                ],
+                "start_time": "7.0",
+                "end_time": "7.32"
+            },
+            {
+                "id": 8,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.987",
+                        "content": "stop"
+                    }
+                ],
+                "start_time": "7.32",
+                "end_time": "7.52"
+            },
+            {
+                "id": 9,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.987",
+                        "content": "and"
+                    }
+                ],
+                "start_time": "7.52",
+                "end_time": "7.72"
+            },
+            {
+                "id": 10,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.986",
+                        "content": "look"
+                    }
+                ],
+                "start_time": "7.72",
+                "end_time": "7.96"
+            },
+            {
+                "id": 11,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "around"
+                    }
+                ],
+                "start_time": "7.96",
+                "end_time": "8.28"
+            },
+            {
+                "id": 12,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "once"
+                    }
+                ],
+                "start_time": "8.28",
+                "end_time": "8.48"
+            },
+            {
+                "id": 13,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.982",
+                        "content": "in"
+                    }
+                ],
+                "start_time": "8.48",
+                "end_time": "8.56"
+            },
+            {
+                "id": 14,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.991",
+                        "content": "a"
+                    }
+                ],
+                "start_time": "8.56",
+                "end_time": "8.68"
+            },
+            {
+                "id": 15,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.989",
+                        "content": "while"
+                    }
+                ],
+                "start_time": "8.68",
+                "end_time": "9.16"
+            },
+            {
+                "id": 16,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ]
+            },
+            {
+                "id": 17,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.974",
+                        "content": "you"
+                    }
+                ],
+                "start_time": "9.53",
+                "end_time": "9.68"
+            },
+            {
+                "id": 18,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "could"
+                    }
+                ],
+                "start_time": "9.68",
+                "end_time": "9.84"
+            },
+            {
+                "id": 19,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.974",
+                        "content": "miss"
+                    }
+                ],
+                "start_time": "9.84",
+                "end_time": "10.0"
+            },
+            {
+                "id": 20,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.989",
+                        "content": "it"
+                    }
+                ],
+                "start_time": "10.0",
+                "end_time": "10.16"
+            },
+            {
+                "id": 21,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ]
+            }
+        ],
+        "audio_segments": [
+            {
+                "id": 0,
+                "transcript": "Life moves pretty fast. If you don't stop and look around once in a while, you could miss it.",
+                "start_time": "4.53",
+                "end_time": "10.29",
+                "items": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                ]
+            }
+        ]
+    }
+}
