@@ -1,0 +1,26 @@
+{
+    "type": "record",
+    "name": "Users",
+    "namespace": "com.amazonaws.personalize.schema",
+    "fields": [
+        {
+            "name": "USER_ID",
+            "type": "string"
+        },
+        {
+            "name": "AGE_GROUP",
+            "type": "string",
+            "categorical": true
+        },
+        {
+            "name": "PREMIUM_MEMBER",
+            "type": "int"
+        },
+        {
+            "name": "REGION",
+            "type": "string",
+            "categorical": true
+        }
+    ],
+    "version": "1.0"
+}

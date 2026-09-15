@@ -1,0 +1,33 @@
+{
+    "type": "record",
+    "name": "Items",
+    "namespace": "com.amazonaws.personalize.schema",
+    "fields": [
+        {
+            "name": "ITEM_ID",
+            "type": "string"
+        },
+        {
+            "name": "GENRES",
+            "type": "string",
+            "categorical": true 
+        },
+        {
+            "name": "RATING",
+            "type": "float"
+        },
+        {
+            "name": "RELEASE_YEAR",
+            "type": "long"
+        },
+        {
+            "name": "DIRECTOR",
+            "type": "string"
+        },
+        {
+            "name": "CREATION_TIMESTAMP",
+            "type": "long"
+        }
+    ],
+    "version": "1.0"
+}

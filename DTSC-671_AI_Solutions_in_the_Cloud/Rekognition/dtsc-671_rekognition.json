@@ -1,0 +1,951 @@
+{
+  "sourceBucket": "dtsc-671-rekognition-input-fa1-2026-cnielson",
+  "sourceKey": "dtsc-671_rekognition.jpg",
+  "targetBucket": "dtsc-671-rekognition-output-fa1-2026-cnielson",
+  "targetKey": "dtsc-671_rekognition.json",
+  "imageType": "jpg",
+  "labels": [
+    {
+      "Name": "Art",
+      "Confidence": 99.97803497314453,
+      "Instances": [],
+      "Parents": [],
+      "Aliases": []
+    },
+    {
+      "Name": "Collage",
+      "Confidence": 99.97803497314453,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Art"
+        }
+      ],
+      "Aliases": []
+    },
+    {
+      "Name": "Face",
+      "Confidence": 99.7634048461914,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Head"
+        },
+        {
+          "Name": "Person"
+        }
+      ],
+      "Aliases": []
+    },
+    {
+      "Name": "Head",
+      "Confidence": 99.7634048461914,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Person"
+        }
+      ],
+      "Aliases": []
+    },
+    {
+      "Name": "Person",
+      "Confidence": 99.7634048461914,
+      "Instances": [
+        {
+          "BoundingBox": {
+            "Width": 0.21507318317890167,
+            "Height": 0.29998257756233215,
+            "Left": 0.33642473816871643,
+            "Top": 0.3014642894268036
+          },
+          "Confidence": 98.61048126220703
+        },
+        {
+          "BoundingBox": {
+            "Width": 0.1364392340183258,
+            "Height": 0.3087460696697235,
+            "Left": 0.13815206289291382,
+            "Top": 0.5629389882087708
+          },
+          "Confidence": 98.47173309326172
+        },
+        {
+          "BoundingBox": {
+            "Width": 0.19491837918758392,
+            "Height": 0.28471189737319946,
+            "Left": 0.3109348714351654,
+            "Top": 0.6024905443191528
+          },
+          "Confidence": 98.33203125
+        },
+        {
+          "BoundingBox": {
+            "Width": 0.13870513439178467,
+            "Height": 0.26470324397087097,
+            "Left": 0.6942746043205261,
+            "Top": 0.13465000689029694
+          },
+          "Confidence": 92.72391510009766
+        },
+        {
+          "BoundingBox": {
+            "Width": 0.1330820769071579,
+            "Height": 0.13174451887607574,
+            "Left": 0.15892624855041504,
+            "Top": 0.18070325255393982
+          },
+          "Confidence": 83.23468780517578
+        }
+      ],
+      "Parents": [],
+      "Aliases": [
+        {
+          "Name": "Human"
+        }
+      ]
+    },
+    {
+      "Name": "Photography",
+      "Confidence": 99.7634048461914,
+      "Instances": [],
+      "Parents": [],
+      "Aliases": [
+        {
+          "Name": "Photo"
+        }
+      ]
+    },
+    {
+      "Name": "Portrait",
+      "Confidence": 99.7634048461914,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Face"
+        },
+        {
+          "Name": "Head"
+        },
+        {
+          "Name": "Person"
+        },
+        {
+          "Name": "Photography"
+        }
+      ],
+      "Aliases": []
+    },
+    {
+      "Name": "Adult",
+      "Confidence": 98.61048126220703,
+      "Instances": [
+        {
+          "BoundingBox": {
+            "Width": 0.21507318317890167,
+            "Height": 0.29998257756233215,
+            "Left": 0.33642473816871643,
+            "Top": 0.3014642894268036
+          },
+          "Confidence": 98.61048126220703
+        },
+        {
+          "BoundingBox": {
+            "Width": 0.1364392340183258,
+            "Height": 0.3087460696697235,
+            "Left": 0.13815206289291382,
+            "Top": 0.5629389882087708
+          },
+          "Confidence": 98.47173309326172
+        },
+        {
+          "BoundingBox": {
+            "Width": 0.19491837918758392,
+            "Height": 0.28471189737319946,
+            "Left": 0.3109348714351654,
+            "Top": 0.6024905443191528
+          },
+          "Confidence": 98.33203125
+        },
+        {
+          "BoundingBox": {
+            "Width": 0.19491837918758392,
+            "Height": 0.28471189737319946,
+            "Left": 0.3109348714351654,
+            "Top": 0.6024905443191528
+          },
+          "Confidence": 98.33203125
+        },
+        {
+          "BoundingBox": {
+            "Width": 0.13870513439178467,
+            "Height": 0.26470324397087097,
+            "Left": 0.6942746043205261,
+            "Top": 0.13465000689029694
+          },
+          "Confidence": 92.72391510009766
+        },
+        {
+          "BoundingBox": {
+            "Width": 0.13870513439178467,
+            "Height": 0.26470324397087097,
+            "Left": 0.6942746043205261,
+            "Top": 0.13465000689029694
+          },
+          "Confidence": 92.72391510009766
+        },
+        {
+          "BoundingBox": {
+            "Width": 0.1330820769071579,
+            "Height": 0.13174451887607574,
+            "Left": 0.15892624855041504,
+            "Top": 0.18070325255393982
+          },
+          "Confidence": 83.23468780517578
+        }
+      ],
+      "Parents": [
+        {
+          "Name": "Person"
+        }
+      ],
+      "Aliases": []
+    },
+    {
+      "Name": "Male",
+      "Confidence": 98.61048126220703,
+      "Instances": [
+        {
+          "BoundingBox": {
+            "Width": 0.21507318317890167,
+            "Height": 0.29998257756233215,
+            "Left": 0.33642473816871643,
+            "Top": 0.3014642894268036
+          },
+          "Confidence": 98.61048126220703
+        },
+        {
+          "BoundingBox": {
+            "Width": 0.1330820769071579,
+            "Height": 0.13174451887607574,
+            "Left": 0.15892624855041504,
+            "Top": 0.18070325255393982
+          },
+          "Confidence": 83.23468780517578
+        }
+      ],
+      "Parents": [
+        {
+          "Name": "Person"
+        }
+      ],
+      "Aliases": []
+    },
+    {
+      "Name": "Man",
+      "Confidence": 98.61048126220703,
+      "Instances": [
+        {
+          "BoundingBox": {
+            "Width": 0.21507318317890167,
+            "Height": 0.29998257756233215,
+            "Left": 0.33642473816871643,
+            "Top": 0.3014642894268036
+          },
+          "Confidence": 98.61048126220703
+        },
+        {
+          "BoundingBox": {
+            "Width": 0.1330820769071579,
+            "Height": 0.13174451887607574,
+            "Left": 0.15892624855041504,
+            "Top": 0.18070325255393982
+          },
+          "Confidence": 83.23468780517578
+        }
+      ],
+      "Parents": [
+        {
+          "Name": "Adult"
+        },
+        {
+          "Name": "Male"
+        },
+        {
+          "Name": "Person"
+        }
+      ],
+      "Aliases": []
+    },
+    {
+      "Name": "Female",
+      "Confidence": 98.47173309326172,
+      "Instances": [
+        {
+          "BoundingBox": {
+            "Width": 0.1364392340183258,
+            "Height": 0.3087460696697235,
+            "Left": 0.13815206289291382,
+            "Top": 0.5629389882087708
+          },
+          "Confidence": 98.47173309326172
+        },
+        {
+          "BoundingBox": {
+            "Width": 0.19491837918758392,
+            "Height": 0.28471189737319946,
+            "Left": 0.3109348714351654,
+            "Top": 0.6024905443191528
+          },
+          "Confidence": 98.33203125
+        },
+        {
+          "BoundingBox": {
+            "Width": 0.19491837918758392,
+            "Height": 0.28471189737319946,
+            "Left": 0.3109348714351654,
+            "Top": 0.6024905443191528
+          },
+          "Confidence": 98.33203125
+        },
+        {
+          "BoundingBox": {
+            "Width": 0.13870513439178467,
+            "Height": 0.26470324397087097,
+            "Left": 0.6942746043205261,
+            "Top": 0.13465000689029694
+          },
+          "Confidence": 92.72391510009766
+        },
+        {
+          "BoundingBox": {
+            "Width": 0.13870513439178467,
+            "Height": 0.26470324397087097,
+            "Left": 0.6942746043205261,
+            "Top": 0.13465000689029694
+          },
+          "Confidence": 92.72391510009766
+        }
+      ],
+      "Parents": [
+        {
+          "Name": "Person"
+        }
+      ],
+      "Aliases": []
+    },
+    {
+      "Name": "Woman",
+      "Confidence": 98.47173309326172,
+      "Instances": [
+        {
+          "BoundingBox": {
+            "Width": 0.1364392340183258,
+            "Height": 0.3087460696697235,
+            "Left": 0.13815206289291382,
+            "Top": 0.5629389882087708
+          },
+          "Confidence": 98.47173309326172
+        },
+        {
+          "BoundingBox": {
+            "Width": 0.19491837918758392,
+            "Height": 0.28471189737319946,
+            "Left": 0.3109348714351654,
+            "Top": 0.6024905443191528
+          },
+          "Confidence": 98.33203125
+        },
+        {
+          "BoundingBox": {
+            "Width": 0.13870513439178467,
+            "Height": 0.26470324397087097,
+            "Left": 0.6942746043205261,
+            "Top": 0.13465000689029694
+          },
+          "Confidence": 92.72391510009766
+        }
+      ],
+      "Parents": [
+        {
+          "Name": "Adult"
+        },
+        {
+          "Name": "Female"
+        },
+        {
+          "Name": "Person"
+        }
+      ],
+      "Aliases": []
+    },
+    {
+      "Name": "Bride",
+      "Confidence": 98.33203125,
+      "Instances": [
+        {
+          "BoundingBox": {
+            "Width": 0.19491837918758392,
+            "Height": 0.28471189737319946,
+            "Left": 0.3109348714351654,
+            "Top": 0.6024905443191528
+          },
+          "Confidence": 98.33203125
+        },
+        {
+          "BoundingBox": {
+            "Width": 0.13870513439178467,
+            "Height": 0.26470324397087097,
+            "Left": 0.6942746043205261,
+            "Top": 0.13465000689029694
+          },
+          "Confidence": 92.72391510009766
+        }
+      ],
+      "Parents": [
+        {
+          "Name": "Adult"
+        },
+        {
+          "Name": "Female"
+        },
+        {
+          "Name": "Person"
+        },
+        {
+          "Name": "Wedding"
+        },
+        {
+          "Name": "Woman"
+        }
+      ],
+      "Aliases": []
+    },
+    {
+      "Name": "Dress",
+      "Confidence": 95.60894012451172,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Clothing"
+        }
+      ],
+      "Aliases": []
+    },
+    {
+      "Name": "Animal",
+      "Confidence": 94.71227264404297,
+      "Instances": [],
+      "Parents": [],
+      "Aliases": []
+    },
+    {
+      "Name": "Canine",
+      "Confidence": 94.71227264404297,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Animal"
+        },
+        {
+          "Name": "Mammal"
+        }
+      ],
+      "Aliases": []
+    },
+    {
+      "Name": "Dog",
+      "Confidence": 94.71227264404297,
+      "Instances": [
+        {
+          "BoundingBox": {
+            "Width": 0.0894094780087471,
+            "Height": 0.16174502670764923,
+            "Left": 0.7907520532608032,
+            "Top": 0.4528804421424866
+          },
+          "Confidence": 94.71227264404297
+        },
+        {
+          "BoundingBox": {
+            "Width": 0.13849566876888275,
+            "Height": 0.1638142466545105,
+            "Left": 0.6661146283149719,
+            "Top": 0.6659725308418274
+          },
+          "Confidence": 79.79242706298828
+        }
+      ],
+      "Parents": [
+        {
+          "Name": "Animal"
+        },
+        {
+          "Name": "Canine"
+        },
+        {
+          "Name": "Mammal"
+        },
+        {
+          "Name": "Pet"
+        }
+      ],
+      "Aliases": []
+    },
+    {
+      "Name": "Mammal",
+      "Confidence": 94.71227264404297,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Animal"
+        }
+      ],
+      "Aliases": []
+    },
+    {
+      "Name": "Pet",
+      "Confidence": 94.71227264404297,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Animal"
+        }
+      ],
+      "Aliases": []
+    },
+    {
+      "Name": "Cat",
+      "Confidence": 91.01317596435547,
+      "Instances": [
+        {
+          "BoundingBox": {
+            "Width": 0.0609092116355896,
+            "Height": 0.1588229238986969,
+            "Left": 0.5462338328361511,
+            "Top": 0.45712268352508545
+          },
+          "Confidence": 91.01317596435547
+        }
+      ],
+      "Parents": [
+        {
+          "Name": "Animal"
+        },
+        {
+          "Name": "Mammal"
+        },
+        {
+          "Name": "Pet"
+        }
+      ],
+      "Aliases": []
+    },
+    {
+      "Name": "Pig",
+      "Confidence": 90.73440551757812,
+      "Instances": [
+        {
+          "BoundingBox": {
+            "Width": 0.08925306051969528,
+            "Height": 0.12382757663726807,
+            "Left": 0.6509004831314087,
+            "Top": 0.4861248731613159
+          },
+          "Confidence": 90.73440551757812
+        }
+      ],
+      "Parents": [
+        {
+          "Name": "Animal"
+        },
+        {
+          "Name": "Mammal"
+        }
+      ],
+      "Aliases": []
+    },
+    {
+      "Name": "Cow",
+      "Confidence": 86.13761901855469,
+      "Instances": [
+        {
+          "BoundingBox": {
+            "Width": 0.16991448402404785,
+            "Height": 0.2445329874753952,
+            "Left": 0.4645479917526245,
+            "Top": 0.15861894190311432
+          },
+          "Confidence": 86.13761901855469
+        }
+      ],
+      "Parents": [
+        {
+          "Name": "Animal"
+        },
+        {
+          "Name": "Cattle"
+        },
+        {
+          "Name": "Livestock"
+        },
+        {
+          "Name": "Mammal"
+        }
+      ],
+      "Aliases": []
+    },
+    {
+      "Name": "Painting",
+      "Confidence": 85.41278839111328,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Art"
+        }
+      ],
+      "Aliases": []
+    },
+    {
+      "Name": "Boat",
+      "Confidence": 74.8799819946289,
+      "Instances": [
+        {
+          "BoundingBox": {
+            "Width": 0.22289583086967468,
+            "Height": 0.06442095339298248,
+            "Left": 0.12648777663707733,
+            "Top": 0.4170648455619812
+          },
+          "Confidence": 74.8799819946289
+        }
+      ],
+      "Parents": [
+        {
+          "Name": "Transportation"
+        },
+        {
+          "Name": "Vehicle"
+        }
+      ],
+      "Aliases": []
+    },
+    {
+      "Name": "Fox",
+      "Confidence": 56.9091682434082,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Animal"
+        },
+        {
+          "Name": "Mammal"
+        },
+        {
+          "Name": "Wildlife"
+        }
+      ],
+      "Aliases": []
+    },
+    {
+      "Name": "Wildlife",
+      "Confidence": 56.9091682434082,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Animal"
+        }
+      ],
+      "Aliases": []
+    },
+    {
+      "Name": "Drawing",
+      "Confidence": 56.25389099121094,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Art"
+        }
+      ],
+      "Aliases": [
+        {
+          "Name": "Sketch"
+        },
+        {
+          "Name": "Illustrated"
+        }
+      ]
+    },
+    {
+      "Name": "Lion",
+      "Confidence": 55.87350845336914,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Animal"
+        },
+        {
+          "Name": "Mammal"
+        },
+        {
+          "Name": "Wildlife"
+        }
+      ],
+      "Aliases": []
+    },
+    {
+      "Name": "Book",
+      "Confidence": 55.73419952392578,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Publication"
+        }
+      ],
+      "Aliases": []
+    },
+    {
+      "Name": "Comics",
+      "Confidence": 55.73419952392578,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Book"
+        },
+        {
+          "Name": "Publication"
+        }
+      ],
+      "Aliases": []
+    },
+    {
+      "Name": "Advertisement",
+      "Confidence": 55.450218200683594,
+      "Instances": [],
+      "Parents": [],
+      "Aliases": []
+    },
+    {
+      "Name": "Poster",
+      "Confidence": 55.450218200683594,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Advertisement"
+        }
+      ],
+      "Aliases": [
+        {
+          "Name": "Brochure"
+        },
+        {
+          "Name": "Flyer"
+        }
+      ]
+    },
+    {
+      "Name": "Modern Art",
+      "Confidence": 55.18000793457031,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Art"
+        }
+      ],
+      "Aliases": []
+    },
+    {
+      "Name": "Fashion",
+      "Confidence": 55.094730377197266,
+      "Instances": [],
+      "Parents": [],
+      "Aliases": []
+    },
+    {
+      "Name": "Formal Wear",
+      "Confidence": 55.094730377197266,
+      "Instances": [],
+      "Parents": [],
+      "Aliases": []
+    },
+    {
+      "Name": "Gown",
+      "Confidence": 55.094730377197266,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Clothing"
+        },
+        {
+          "Name": "Dress"
+        },
+        {
+          "Name": "Fashion"
+        },
+        {
+          "Name": "Formal Wear"
+        }
+      ],
+      "Aliases": []
+    },
+    {
+      "Name": "Puppy",
+      "Confidence": 54.982513427734375,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Animal"
+        },
+        {
+          "Name": "Canine"
+        },
+        {
+          "Name": "Dog"
+        },
+        {
+          "Name": "Mammal"
+        },
+        {
+          "Name": "Pet"
+        }
+      ],
+      "Aliases": []
+    },
+    {
+      "Name": "Text",
+      "Confidence": 54.938716888427734,
+      "Instances": [],
+      "Parents": [],
+      "Aliases": []
+    },
+    {
+      "Name": "Outdoors",
+      "Confidence": 54.92366409301758,
+      "Instances": [],
+      "Parents": [],
+      "Aliases": []
+    },
+    {
+      "Name": "Rock",
+      "Confidence": 54.85478210449219,
+      "Instances": [],
+      "Parents": [],
+      "Aliases": []
+    },
+    {
+      "Name": "Envelope",
+      "Confidence": 54.57656478881836,
+      "Instances": [],
+      "Parents": [],
+      "Aliases": []
+    },
+    {
+      "Name": "Mail",
+      "Confidence": 54.57656478881836,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Envelope"
+        }
+      ],
+      "Aliases": []
+    },
+    {
+      "Name": "Cross",
+      "Confidence": 54.21086502075195,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Symbol"
+        }
+      ],
+      "Aliases": []
+    },
+    {
+      "Name": "Canvas",
+      "Confidence": 53.9905891418457,
+      "Instances": [],
+      "Parents": [],
+      "Aliases": []
+    },
+    {
+      "Name": "Greeting Card",
+      "Confidence": 53.9569091796875,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Envelope"
+        },
+        {
+          "Name": "Mail"
+        }
+      ],
+      "Aliases": []
+    },
+    {
+      "Name": "Swimwear",
+      "Confidence": 53.5667724609375,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Clothing"
+        }
+      ],
+      "Aliases": []
+    },
+    {
+      "Name": "Art Gallery",
+      "Confidence": 53.19065856933594,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Art"
+        }
+      ],
+      "Aliases": []
+    },
+    {
+      "Name": "Hound",
+      "Confidence": 53.164119720458984,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Animal"
+        },
+        {
+          "Name": "Canine"
+        },
+        {
+          "Name": "Dog"
+        },
+        {
+          "Name": "Mammal"
+        },
+        {
+          "Name": "Pet"
+        }
+      ],
+      "Aliases": []
+    },
+    {
+      "Name": "Nature",
+      "Confidence": 53.05472183227539,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Outdoors"
+        }
+      ],
+      "Aliases": []
+    },
+    {
+      "Name": "Figurine",
+      "Confidence": 52.79902267456055,
+      "Instances": [],
+      "Parents": [],
+      "Aliases": []
+    }
+  ],
+  "labelCount": 50,
+  "status": "success"
+}

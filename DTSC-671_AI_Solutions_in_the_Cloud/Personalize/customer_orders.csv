@@ -1,0 +1,1001 @@
+USER_ID,ITEM_ID,EVENT_TYPE,EVENT_VALUE,TIMESTAMP
+CUST_0080,Caffe Americano,Rating,7,1752351911
+CUST_0087,Matcha Green Tea Latte,Rating,5,1754079911
+CUST_0147,Strawberry Açaí Refresher,Rating,5,1753561511
+CUST_0106,Espresso,Rating,10,1749327911
+CUST_0012,Pumpkin Cream Cold Brew,Rating,10,1747772711
+CUST_0087,Iced Pumpkin Spice Latte,Rating,10,1747772711
+CUST_0042,Caramel Frappuccino,Rating,6,1757881511
+CUST_0123,Pecan Crunch Oatmilk Latte,Rating,9,1757017511
+CUST_0001,Mango Dragonfruit Refresher,Rating,5,1748377511
+CUST_0181,Flat White,Rating,7,1745526311
+CUST_0169,Pecan Crunch Oatmilk Latte,Rating,6,1750969511
+CUST_0073,Strawberry Açaí Refresher,Rating,8,1748377511
+CUST_0062,Cappuccino,Rating,6,1757363111
+CUST_0088,Chai Tea Latte,Rating,5,1748463911
+CUST_0021,Flat White,Rating,7,1756499111
+CUST_0194,Matcha Green Tea Latte,Rating,8,1753647911
+CUST_0170,Caramel Frappuccino,Rating,9,1750796711
+CUST_0193,Nitro Cold Brew,Rating,8,1753561511
+CUST_0150,Strawberry Açaí Refresher,Rating,9,1758659111
+CUST_0091,Mango Dragonfruit Refresher,Rating,10,1753043111
+CUST_0178,Nitro Cold Brew,Rating,10,1750451111
+CUST_0008,Mango Dragonfruit Refresher,Rating,6,1750710311
+CUST_0062,Mango Dragonfruit Refresher,Rating,9,1752438311
+CUST_0131,Cold Brew,Rating,8,1757449511
+CUST_0150,Iced Brown Sugar Oatmilk Shaken Espresso,Rating,9,1754943911
+CUST_0158,Pecan Crunch Oatmilk Latte,Rating,9,1746995111
+CUST_0098,Caffe Mocha,Rating,6,1748031911
+CUST_0181,Pumpkin Cream Cold Brew,Rating,7,1756499111
+CUST_0056,Caffe Latte,Rating,7,1745526311
+CUST_0049,Pink Drink,Rating,8,1758918311
+CUST_0144,Pumpkin Cream Cold Brew,Rating,8,1753388711
+CUST_0031,Caffe Mocha,Rating,7,1757535911
+CUST_0154,Iced Matcha Latte,Rating,9,1753475111
+CUST_0069,Caffe Latte,Rating,10,1757535911
+CUST_0171,Caffe Americano,Rating,5,1758486311
+CUST_0083,Cappuccino,Rating,10,1756585511
+CUST_0093,Vanilla Bean Frappuccino,Rating,6,1746217511
+CUST_0151,Pumpkin Cream Cold Brew,Rating,10,1746649511
+CUST_0079,Caffe Latte,Rating,8,1752611111
+CUST_0038,Iced Pumpkin Spice Latte,Rating,10,1757363111
+CUST_0167,Caramel Frappuccino,Rating,8,1758918311
+CUST_0096,Caffe Latte,Rating,10,1744403111
+CUST_0162,Espresso,Rating,8,1755030311
+CUST_0146,Pumpkin Spice Latte,Rating,9,1752179111
+CUST_0141,Pumpkin Cream Cold Brew,Rating,7,1744748711
+CUST_0187,Nitro Cold Brew,Rating,9,1751487911
+CUST_0188,Espresso,Rating,5,1757190311
+CUST_0008,Iced Caffe Americano,Rating,9,1750364711
+CUST_0182,Pumpkin Spice Latte,Rating,9,1759868711
+CUST_0137,Mango Dragonfruit Refresher,Rating,7,1754252711
+CUST_0042,Iced Pumpkin Spice Latte,Rating,6,1745785511
+CUST_0008,Caffe Americano,Rating,7,1751574311
+CUST_0096,Iced Matcha Latte,Rating,10,1750278311
+CUST_0017,Caffe Latte,Rating,10,1752870311
+CUST_0005,Matcha Green Tea Latte,Rating,10,1754079911
+CUST_0065,Strawberry Açaí Refresher,Rating,5,1755548711
+CUST_0017,Matcha Green Tea Latte,Rating,7,1756931111
+CUST_0167,Caffe Americano,Rating,10,1755721511
+CUST_0161,Caramel Frappuccino,Rating,5,1745526311
+CUST_0056,Pink Drink,Rating,10,1758745511
+CUST_0090,Caffe Americano,Rating,8,1749846311
+CUST_0105,Paradise Drink,Rating,5,1757708711
+CUST_0062,Mango Dragonfruit Refresher,Rating,5,1748550311
+CUST_0188,Nitro Cold Brew,Rating,8,1750969511
+CUST_0029,Iced Chai Tea Latte,Rating,9,1747686311
+CUST_0161,Caffe Latte,Rating,6,1746735911
+CUST_0139,Mango Dragonfruit Refresher,Rating,9,1744489511
+CUST_0010,Vanilla Bean Frappuccino,Rating,9,1756671911
+CUST_0119,Mango Dragonfruit Refresher,Rating,10,1753043111
+CUST_0079,Cold Brew,Rating,10,1749327911
+CUST_0016,Matcha Green Tea Latte,Rating,9,1750537511
+CUST_0076,Nitro Cold Brew,Rating,9,1749500711
+CUST_0124,Espresso,Rating,9,1758486311
+CUST_0173,Matcha Green Tea Latte,Rating,10,1748809511
+CUST_0129,Pink Drink,Rating,10,1752956711
+CUST_0055,Iced Matcha Latte,Rating,10,1752524711
+CUST_0050,Caffe Mocha,Rating,8,1754079911
+CUST_0073,Chai Tea Latte,Rating,5,1744835111
+CUST_0072,Chai Tea Latte,Rating,9,1756585511
+CUST_0158,Caffe Latte,Rating,8,1758486311
+CUST_0153,Iced Brown Sugar Oatmilk Shaken Espresso,Rating,10,1746995111
+CUST_0015,Java Chip Frappuccino,Rating,5,1753129511
+CUST_0143,Chai Tea Latte,Rating,10,1757881511
+CUST_0052,Nitro Cold Brew,Rating,9,1756844711
+CUST_0199,Caffe Latte,Rating,7,1746044711
+CUST_0120,Chai Tea Latte,Rating,6,1745958311
+CUST_0102,Espresso,Rating,5,1758831911
+CUST_0033,Caffe Americano,Rating,9,1753043111
+CUST_0087,Vanilla Bean Frappuccino,Rating,8,1746822311
+CUST_0006,Caramel Frappuccino,Rating,6,1747340711
+CUST_0129,Mango Dragonfruit Refresher,Rating,10,1749241511
+CUST_0143,Iced Brown Sugar Oatmilk Shaken Espresso,Rating,7,1759004711
+CUST_0170,Caffe Americano,Rating,7,1751142311
+CUST_0071,Strawberry Açaí Refresher,Rating,7,1755980711
+CUST_0027,Espresso,Rating,9,1748118311
+CUST_0036,Cappuccino,Rating,5,1755980711
+CUST_0082,Caffe Mocha,Rating,5,1758745511
+CUST_0171,Iced Pumpkin Spice Latte,Rating,6,1755203111
+CUST_0080,Paradise Drink,Rating,7,1756412711
+CUST_0136,Paradise Drink,Rating,9,1752265511
+CUST_0178,Espresso,Rating,9,1748291111
+CUST_0170,Mocha Frappuccino,Rating,10,1759263911
+CUST_0149,Cappuccino,Rating,5,1758486311
+CUST_0174,Vanilla Bean Frappuccino,Rating,5,1751487911
+CUST_0143,Mango Dragonfruit Refresher,Rating,7,1755980711
+CUST_0193,Paradise Drink,Rating,5,1749759911
+CUST_0044,Mocha Frappuccino,Rating,7,1747340711
+CUST_0161,Iced Caffe Americano,Rating,5,1758572711
+CUST_0058,Pecan Crunch Oatmilk Latte,Rating,10,1753129511
+CUST_0090,Mango Dragonfruit Refresher,Rating,9,1748463911
+CUST_0024,Iced Caffe Americano,Rating,9,1757363111
+CUST_0167,Chai Tea Latte,Rating,7,1747081511
+CUST_0156,Mocha Frappuccino,Rating,9,1744835111
+CUST_0185,Java Chip Frappuccino,Rating,5,1753388711
+CUST_0143,Pink Drink,Rating,8,1752697511
+CUST_0058,Iced Matcha Latte,Rating,10,1754511911
+CUST_0192,Pink Drink,Rating,8,1745526311
+CUST_0171,Caffe Latte,Rating,6,1753561511
+CUST_0172,Pumpkin Cream Cold Brew,Rating,8,1747599911
+CUST_0144,Iced Chai Tea Latte,Rating,9,1753215911
+CUST_0153,Caffe Americano,Rating,8,1756931111
+CUST_0165,Java Chip Frappuccino,Rating,5,1746476711
+CUST_0152,Pink Drink,Rating,8,1746303911
+CUST_0173,Pumpkin Cream Cold Brew,Rating,5,1753388711
+CUST_0149,Caffe Americano,Rating,5,1757967911
+CUST_0055,Paradise Drink,Rating,10,1755980711
+CUST_0171,Pecan Crunch Oatmilk Latte,Rating,9,1745353511
+CUST_0116,Caffe Latte,Rating,5,1752006311
+CUST_0122,Iced Chai Tea Latte,Rating,5,1751747111
+CUST_0157,Nitro Cold Brew,Rating,5,1746476711
+CUST_0027,Espresso,Rating,9,1757622311
+CUST_0160,Matcha Green Tea Latte,Rating,5,1745785511
+CUST_0128,Iced Caffe Americano,Rating,7,1749932711
+CUST_0179,Vanilla Bean Frappuccino,Rating,7,1746390311
+CUST_0128,Pink Drink,Rating,7,1752179111
+CUST_0125,Iced Caffe Americano,Rating,9,1747945511
+CUST_0200,Mango Dragonfruit Refresher,Rating,6,1747513511
+CUST_0078,Pink Drink,Rating,10,1750105511
+CUST_0042,Pumpkin Cream Cold Brew,Rating,7,1756326311
+CUST_0003,Pumpkin Cream Cold Brew,Rating,6,1752006311
+CUST_0111,Vanilla Bean Frappuccino,Rating,10,1751660711
+CUST_0153,Nitro Cold Brew,Rating,9,1753907111
+CUST_0143,Caffe Latte,Rating,5,1746217511
+CUST_0139,Cold Brew,Rating,9,1747340711
+CUST_0042,Iced Caffe Americano,Rating,10,1758572711
+CUST_0096,Pumpkin Spice Latte,Rating,5,1750883111
+CUST_0190,Iced Matcha Latte,Rating,5,1752697511
+CUST_0014,Caffe Americano,Rating,8,1755548711
+CUST_0134,Caffe Americano,Rating,8,1744835111
+CUST_0014,Iced Brown Sugar Oatmilk Shaken Espresso,Rating,8,1754079911
+CUST_0040,Caffe Americano,Rating,10,1755203111
+CUST_0140,Pumpkin Spice Latte,Rating,10,1750969511
+CUST_0133,Iced Caffe Americano,Rating,7,1746995111
+CUST_0021,Mango Dragonfruit Refresher,Rating,6,1753043111
+CUST_0069,Paradise Drink,Rating,8,1745353511
+CUST_0017,Pecan Crunch Oatmilk Latte,Rating,9,1751142311
+CUST_0072,Pink Drink,Rating,5,1748031911
+CUST_0108,Matcha Green Tea Latte,Rating,5,1754425511
+CUST_0074,Vanilla Bean Frappuccino,Rating,5,1747167911
+CUST_0090,Nitro Cold Brew,Rating,5,1755289511
+CUST_0008,Vanilla Bean Frappuccino,Rating,5,1750969511
+CUST_0185,Iced Chai Tea Latte,Rating,7,1748463911
+CUST_0157,Mocha Frappuccino,Rating,7,1753820711
+CUST_0017,Pecan Crunch Oatmilk Latte,Rating,7,1744489511
+CUST_0095,Pumpkin Spice Latte,Rating,10,1749500711
+CUST_0195,Cappuccino,Rating,10,1756239911
+CUST_0155,Mocha Frappuccino,Rating,10,1756931111
+CUST_0119,Matcha Green Tea Latte,Rating,8,1752697511
+CUST_0125,Flat White,Rating,8,1751142311
+CUST_0133,Caffe Latte,Rating,6,1752783911
+CUST_0021,Java Chip Frappuccino,Rating,6,1756239911
+CUST_0115,Caramel Frappuccino,Rating,8,1752524711
+CUST_0141,Caramel Frappuccino,Rating,10,1752611111
+CUST_0119,Cold Brew,Rating,5,1746044711
+CUST_0078,Pecan Crunch Oatmilk Latte,Rating,6,1757103911
+CUST_0077,Mango Dragonfruit Refresher,Rating,5,1748463911
+CUST_0048,Iced Caffe Americano,Rating,5,1753215911
+CUST_0198,Espresso,Rating,8,1751574311
+CUST_0037,Iced Brown Sugar Oatmilk Shaken Espresso,Rating,8,1756671911
+CUST_0059,Iced Chai Tea Latte,Rating,5,1759263911
+CUST_0200,Caramel Frappuccino,Rating,10,1750019111
+CUST_0077,Mocha Frappuccino,Rating,8,1753734311
+CUST_0038,Pumpkin Cream Cold Brew,Rating,9,1747599911
+CUST_0071,Vanilla Bean Frappuccino,Rating,5,1746131111
+CUST_0097,Cold Brew,Rating,10,1749673511
+CUST_0085,Mango Dragonfruit Refresher,Rating,9,1753647911
+CUST_0020,Java Chip Frappuccino,Rating,8,1753561511
+CUST_0010,Espresso,Rating,8,1754771111
+CUST_0155,Pink Drink,Rating,10,1745871911
+CUST_0137,Nitro Cold Brew,Rating,5,1745353511
+CUST_0115,Pink Drink,Rating,5,1759177511
+CUST_0191,Caramel Frappuccino,Rating,5,1745958311
+CUST_0004,Strawberry Açaí Refresher,Rating,6,1755548711
+CUST_0193,Chai Tea Latte,Rating,10,1753043111
+CUST_0028,Matcha Green Tea Latte,Rating,8,1746131111
+CUST_0049,Pumpkin Spice Latte,Rating,9,1754857511
+CUST_0166,Iced Pumpkin Spice Latte,Rating,10,1746822311
+CUST_0148,Cold Brew,Rating,7,1753734311
+CUST_0200,Vanilla Bean Frappuccino,Rating,6,1748204711
+CUST_0124,Caffe Mocha,Rating,7,1747340711
+CUST_0101,Matcha Green Tea Latte,Rating,10,1752438311
+CUST_0059,Iced Matcha Latte,Rating,5,1745094311
+CUST_0192,Caramel Frappuccino,Rating,6,1744489511
+CUST_0156,Iced Chai Tea Latte,Rating,8,1745699111
+CUST_0028,Mango Dragonfruit Refresher,Rating,7,1758745511
+CUST_0065,Pink Drink,Rating,9,1759695911
+CUST_0132,Mocha Frappuccino,Rating,6,1759868711
+CUST_0188,Espresso,Rating,8,1746822311
+CUST_0015,Pink Drink,Rating,8,1757881511
+CUST_0190,Caffe Latte,Rating,6,1752783911
+CUST_0072,Caffe Mocha,Rating,10,1746649511
+CUST_0039,Chai Tea Latte,Rating,5,1756844711
+CUST_0050,Caffe Mocha,Rating,10,1744921511
+CUST_0002,Java Chip Frappuccino,Rating,5,1756758311
+CUST_0169,Caffe Latte,Rating,8,1749068711
+CUST_0196,Java Chip Frappuccino,Rating,8,1752697511
+CUST_0102,Vanilla Bean Frappuccino,Rating,7,1757622311
+CUST_0064,Iced Caffe Americano,Rating,8,1754079911
+CUST_0078,Cold Brew,Rating,10,1759868711
+CUST_0024,Pumpkin Cream Cold Brew,Rating,8,1751315111
+CUST_0171,Iced Caffe Americano,Rating,5,1758572711
+CUST_0163,Matcha Green Tea Latte,Rating,10,1750883111
+CUST_0154,Pumpkin Cream Cold Brew,Rating,7,1748723111
+CUST_0175,Nitro Cold Brew,Rating,5,1745871911
+CUST_0190,Iced Matcha Latte,Rating,6,1758140711
+CUST_0012,Iced Chai Tea Latte,Rating,5,1746908711
+CUST_0009,Caffe Mocha,Rating,6,1752265511
+CUST_0184,Pumpkin Spice Latte,Rating,5,1759436711
+CUST_0120,Caffe Latte,Rating,9,1751747111
+CUST_0001,Espresso,Rating,5,1747340711
+CUST_0187,Pink Drink,Rating,10,1756758311
+CUST_0057,Iced Pumpkin Spice Latte,Rating,5,1757363111
+CUST_0128,Pumpkin Cream Cold Brew,Rating,7,1751747111
+CUST_0140,Matcha Green Tea Latte,Rating,8,1758745511
+CUST_0131,Paradise Drink,Rating,6,1747081511
+CUST_0113,Paradise Drink,Rating,8,1745958311
+CUST_0056,Mango Dragonfruit Refresher,Rating,7,1748118311
+CUST_0199,Vanilla Bean Frappuccino,Rating,6,1748204711
+CUST_0031,Caffe Latte,Rating,6,1756326311
+CUST_0108,Caffe Latte,Rating,5,1755721511
+CUST_0090,Cappuccino,Rating,6,1752351911
+CUST_0194,Caramel Frappuccino,Rating,6,1754079911
+CUST_0074,Java Chip Frappuccino,Rating,8,1757276711
+CUST_0170,Pumpkin Cream Cold Brew,Rating,7,1756499111
+CUST_0068,Caramel Frappuccino,Rating,8,1747167911
+CUST_0006,Iced Pumpkin Spice Latte,Rating,7,1756153511
+CUST_0155,Espresso,Rating,8,1751919911
+CUST_0196,Matcha Green Tea Latte,Rating,7,1750278311
+CUST_0121,Chai Tea Latte,Rating,7,1758227111
+CUST_0064,Mango Dragonfruit Refresher,Rating,5,1757276711
+CUST_0199,Mocha Frappuccino,Rating,5,1748809511
+CUST_0173,Java Chip Frappuccino,Rating,9,1748809511
+CUST_0184,Cold Brew,Rating,5,1752265511
+CUST_0197,Nitro Cold Brew,Rating,7,1758399911
+CUST_0111,Caffe Latte,Rating,7,1758399911
+CUST_0077,Cappuccino,Rating,8,1755203111
+CUST_0114,Cold Brew,Rating,9,1744835111
+CUST_0142,Pumpkin Spice Latte,Rating,6,1746476711
+CUST_0058,Pumpkin Cream Cold Brew,Rating,8,1748031911
+CUST_0193,Iced Caffe Americano,Rating,7,1753820711
+CUST_0158,Iced Brown Sugar Oatmilk Shaken Espresso,Rating,6,1758140711
+CUST_0186,Caffe Mocha,Rating,10,1755980711
+CUST_0047,Iced Pumpkin Spice Latte,Rating,7,1753647911
+CUST_0091,Caffe Americano,Rating,8,1759955111
+CUST_0004,Iced Caffe Americano,Rating,8,1757708711
+CUST_0199,Pecan Crunch Oatmilk Latte,Rating,7,1750451111
+CUST_0037,Espresso,Rating,8,1756671911
+CUST_0041,Strawberry Açaí Refresher,Rating,10,1759955111
+CUST_0177,Matcha Green Tea Latte,Rating,9,1758918311
+CUST_0166,Java Chip Frappuccino,Rating,8,1756671911
+CUST_0144,Pumpkin Cream Cold Brew,Rating,6,1752956711
+CUST_0159,Caffe Mocha,Rating,8,1747081511
+CUST_0024,Caramel Frappuccino,Rating,9,1752092711
+CUST_0068,Nitro Cold Brew,Rating,7,1753907111
+CUST_0128,Mocha Frappuccino,Rating,5,1744575911
+CUST_0153,Nitro Cold Brew,Rating,6,1752351911
+CUST_0067,Pumpkin Spice Latte,Rating,10,1758227111
+CUST_0160,Caffe Americano,Rating,10,1747945511
+CUST_0096,Caffe Latte,Rating,7,1744835111
+CUST_0119,Iced Brown Sugar Oatmilk Shaken Espresso,Rating,5,1746390311
+CUST_0052,Vanilla Bean Frappuccino,Rating,6,1754339111
+CUST_0192,Cold Brew,Rating,5,1752524711
+CUST_0154,Mango Dragonfruit Refresher,Rating,7,1751833511
+CUST_0102,Pumpkin Spice Latte,Rating,10,1756239911
+CUST_0025,Pumpkin Cream Cold Brew,Rating,9,1751660711
+CUST_0031,Java Chip Frappuccino,Rating,8,1751833511
+CUST_0170,Nitro Cold Brew,Rating,5,1757103911
+CUST_0073,Caramel Frappuccino,Rating,7,1752351911
+CUST_0134,Java Chip Frappuccino,Rating,10,1755980711
+CUST_0077,Iced Chai Tea Latte,Rating,7,1755548711
+CUST_0135,Iced Matcha Latte,Rating,8,1759263911
+CUST_0153,Iced Caffe Americano,Rating,6,1750796711
+CUST_0073,Caramel Frappuccino,Rating,9,1745353511
+CUST_0120,Iced Pumpkin Spice Latte,Rating,8,1746649511
+CUST_0088,Paradise Drink,Rating,7,1752956711
+CUST_0065,Caramel Frappuccino,Rating,6,1751919911
+CUST_0055,Matcha Green Tea Latte,Rating,8,1758227111
+CUST_0079,Espresso,Rating,7,1751833511
+CUST_0004,Iced Brown Sugar Oatmilk Shaken Espresso,Rating,10,1754771111
+CUST_0121,Cappuccino,Rating,10,1744835111
+CUST_0193,Cold Brew,Rating,8,1756239911
+CUST_0176,Caffe Mocha,Rating,5,1753302311
+CUST_0145,Caffe Latte,Rating,8,1753820711
+CUST_0160,Strawberry Açaí Refresher,Rating,7,1759091111
+CUST_0113,Pumpkin Spice Latte,Rating,9,1751142311
+CUST_0161,Caffe Mocha,Rating,5,1754511911
+CUST_0008,Mocha Frappuccino,Rating,5,1748636711
+CUST_0069,Iced Chai Tea Latte,Rating,8,1758313511
+CUST_0013,Iced Chai Tea Latte,Rating,6,1756758311
+CUST_0134,Nitro Cold Brew,Rating,6,1751142311
+CUST_0080,Cappuccino,Rating,10,1747772711
+CUST_0141,Caffe Latte,Rating,6,1751919911
+CUST_0163,Flat White,Rating,6,1753907111
+CUST_0148,Cold Brew,Rating,9,1759091111
+CUST_0108,Caramel Frappuccino,Rating,7,1756931111
+CUST_0134,Pumpkin Cream Cold Brew,Rating,8,1756585511
+CUST_0198,Matcha Green Tea Latte,Rating,7,1745871911
+CUST_0147,Cappuccino,Rating,6,1745785511
+CUST_0125,Iced Brown Sugar Oatmilk Shaken Espresso,Rating,10,1744748711
+CUST_0038,Iced Chai Tea Latte,Rating,7,1755721511
+CUST_0029,Strawberry Açaí Refresher,Rating,5,1753647911
+CUST_0160,Cappuccino,Rating,6,1748291111
+CUST_0056,Pink Drink,Rating,8,1751142311
+CUST_0165,Caffe Mocha,Rating,8,1755635111
+CUST_0190,Cold Brew,Rating,10,1759868711
+CUST_0101,Flat White,Rating,8,1744835111
+CUST_0064,Caffe Latte,Rating,6,1758745511
+CUST_0100,Caramel Frappuccino,Rating,9,1757363111
+CUST_0003,Caramel Frappuccino,Rating,6,1752351911
+CUST_0168,Iced Brown Sugar Oatmilk Shaken Espresso,Rating,5,1758313511
+CUST_0099,Pink Drink,Rating,5,1750969511
+CUST_0073,Pecan Crunch Oatmilk Latte,Rating,6,1749068711
+CUST_0120,Iced Chai Tea Latte,Rating,7,1746390311
+CUST_0022,Pumpkin Spice Latte,Rating,6,1752870311
+CUST_0151,Cold Brew,Rating,8,1750191911
+CUST_0093,Strawberry Açaí Refresher,Rating,9,1754166311
+CUST_0129,Iced Matcha Latte,Rating,9,1752783911
+CUST_0191,Cold Brew,Rating,10,1756844711
+CUST_0054,Cold Brew,Rating,9,1746649511
+CUST_0062,Espresso,Rating,10,1745439911
+CUST_0070,Flat White,Rating,9,1757363111
+CUST_0082,Mocha Frappuccino,Rating,9,1744403111
+CUST_0059,Strawberry Açaí Refresher,Rating,9,1755462311
+CUST_0138,Pumpkin Spice Latte,Rating,9,1755289511
+CUST_0054,Mocha Frappuccino,Rating,6,1748723111
+CUST_0081,Paradise Drink,Rating,7,1752179111
+CUST_0135,Strawberry Açaí Refresher,Rating,10,1756844711
+CUST_0154,Espresso,Rating,6,1746649511
+CUST_0003,Caffe Americano,Rating,5,1749673511
+CUST_0195,Nitro Cold Brew,Rating,10,1746908711
+CUST_0034,Caffe Americano,Rating,5,1745180711
+CUST_0104,Nitro Cold Brew,Rating,7,1758831911
+CUST_0106,Caffe Americano,Rating,6,1755375911
+CUST_0047,Mocha Frappuccino,Rating,6,1748809511
+CUST_0065,Pumpkin Spice Latte,Rating,9,1754511911
+CUST_0151,Iced Chai Tea Latte,Rating,9,1757103911
+CUST_0187,Pink Drink,Rating,5,1753388711
+CUST_0173,Cappuccino,Rating,5,1747513511
+CUST_0002,Caffe Latte,Rating,6,1751142311
+CUST_0025,Iced Chai Tea Latte,Rating,9,1758399911
+CUST_0001,Pumpkin Cream Cold Brew,Rating,7,1754252711
+CUST_0130,Vanilla Bean Frappuccino,Rating,5,1745612711
+CUST_0116,Iced Caffe Americano,Rating,6,1757535911
+CUST_0108,Iced Caffe Americano,Rating,7,1755289511
+CUST_0167,Caramel Frappuccino,Rating,9,1746390311
+CUST_0113,Iced Brown Sugar Oatmilk Shaken Espresso,Rating,8,1755289511
+CUST_0091,Cold Brew,Rating,5,1748204711
+CUST_0110,Flat White,Rating,6,1759868711
+CUST_0120,Iced Chai Tea Latte,Rating,10,1759868711
+CUST_0009,Chai Tea Latte,Rating,6,1755548711
+CUST_0127,Pink Drink,Rating,10,1755203111
+CUST_0084,Iced Caffe Americano,Rating,6,1756067111
+CUST_0054,Vanilla Bean Frappuccino,Rating,8,1757276711
+CUST_0066,Vanilla Bean Frappuccino,Rating,7,1755548711
+CUST_0135,Mango Dragonfruit Refresher,Rating,7,1756931111
+CUST_0080,Mango Dragonfruit Refresher,Rating,6,1759177511
+CUST_0062,Matcha Green Tea Latte,Rating,7,1759350311
+CUST_0165,Nitro Cold Brew,Rating,10,1751919911
+CUST_0087,Vanilla Bean Frappuccino,Rating,10,1753907111
+CUST_0090,Iced Caffe Americano,Rating,5,1755980711
+CUST_0174,Mango Dragonfruit Refresher,Rating,5,1745180711
+CUST_0192,Iced Chai Tea Latte,Rating,7,1759609511
+CUST_0173,Matcha Green Tea Latte,Rating,6,1749327911
+CUST_0196,Iced Brown Sugar Oatmilk Shaken Espresso,Rating,7,1758227111
+CUST_0038,Iced Brown Sugar Oatmilk Shaken Espresso,Rating,6,1752524711
+CUST_0142,Pumpkin Cream Cold Brew,Rating,6,1753215911
+CUST_0068,Iced Matcha Latte,Rating,8,1757622311
+CUST_0195,Espresso,Rating,9,1757795111
+CUST_0074,Vanilla Bean Frappuccino,Rating,10,1750623911
+CUST_0090,Java Chip Frappuccino,Rating,8,1747686311
+CUST_0094,Caffe Latte,Rating,5,1749673511
+CUST_0101,Matcha Green Tea Latte,Rating,10,1755980711
+CUST_0098,Nitro Cold Brew,Rating,9,1753388711
+CUST_0014,Nitro Cold Brew,Rating,8,1747772711
+CUST_0167,Caramel Frappuccino,Rating,7,1750623911
+CUST_0002,Cappuccino,Rating,5,1745612711
+CUST_0025,Iced Brown Sugar Oatmilk Shaken Espresso,Rating,6,1755375911
+CUST_0024,Espresso,Rating,5,1757535911
+CUST_0014,Flat White,Rating,7,1749846311
+CUST_0154,Caffe Americano,Rating,9,1754857511
+CUST_0075,Pink Drink,Rating,9,1748291111
+CUST_0177,Iced Matcha Latte,Rating,10,1759955111
+CUST_0184,Pumpkin Spice Latte,Rating,10,1748809511
+CUST_0142,Nitro Cold Brew,Rating,7,1746563111
+CUST_0018,Caramel Frappuccino,Rating,5,1745871911
+CUST_0094,Paradise Drink,Rating,8,1748031911
+CUST_0119,Pumpkin Spice Latte,Rating,9,1753302311
+CUST_0027,Cold Brew,Rating,7,1757967911
+CUST_0001,Caffe Latte,Rating,9,1749932711
+CUST_0099,Cappuccino,Rating,6,1758399911
+CUST_0065,Pink Drink,Rating,9,1755030311
+CUST_0009,Pink Drink,Rating,5,1757449511
+CUST_0063,Espresso,Rating,6,1755721511
+CUST_0195,Caffe Mocha,Rating,9,1748636711
+CUST_0097,Flat White,Rating,6,1749327911
+CUST_0068,Pecan Crunch Oatmilk Latte,Rating,6,1748636711
+CUST_0199,Caffe Latte,Rating,9,1745439911
+CUST_0017,Caramel Frappuccino,Rating,5,1754252711
+CUST_0053,Mango Dragonfruit Refresher,Rating,5,1745094311
+CUST_0116,Strawberry Açaí Refresher,Rating,8,1754079911
+CUST_0072,Strawberry Açaí Refresher,Rating,6,1754943911
+CUST_0082,Pumpkin Cream Cold Brew,Rating,5,1756412711
+CUST_0101,Pumpkin Cream Cold Brew,Rating,8,1750623911
+CUST_0089,Vanilla Bean Frappuccino,Rating,6,1749155111
+CUST_0169,Vanilla Bean Frappuccino,Rating,8,1753907111
+CUST_0135,Mango Dragonfruit Refresher,Rating,7,1755635111
+CUST_0031,Nitro Cold Brew,Rating,5,1756499111
+CUST_0007,Cold Brew,Rating,10,1749414311
+CUST_0178,Pumpkin Spice Latte,Rating,10,1750883111
+CUST_0015,Cold Brew,Rating,7,1752438311
+CUST_0115,Matcha Green Tea Latte,Rating,7,1745526311
+CUST_0030,Iced Pumpkin Spice Latte,Rating,6,1755807911
+CUST_0014,Iced Chai Tea Latte,Rating,6,1755203111
+CUST_0100,Caffe Americano,Rating,7,1746995111
+CUST_0073,Iced Pumpkin Spice Latte,Rating,8,1750019111
+CUST_0164,Mango Dragonfruit Refresher,Rating,9,1757276711
+CUST_0027,Pink Drink,Rating,10,1757535911
+CUST_0141,Iced Matcha Latte,Rating,5,1746908711
+CUST_0056,Java Chip Frappuccino,Rating,7,1753475111
+CUST_0126,Caffe Latte,Rating,9,1745871911
+CUST_0040,Paradise Drink,Rating,7,1753561511
+CUST_0076,Mango Dragonfruit Refresher,Rating,6,1748031911
+CUST_0142,Java Chip Frappuccino,Rating,5,1745612711
+CUST_0128,Matcha Green Tea Latte,Rating,5,1757276711
+CUST_0185,Caffe Mocha,Rating,8,1753475111
+CUST_0069,Flat White,Rating,8,1751055911
+CUST_0042,Mango Dragonfruit Refresher,Rating,6,1748031911
+CUST_0185,Caramel Frappuccino,Rating,5,1747081511
+CUST_0185,Espresso,Rating,6,1747081511
+CUST_0172,Mocha Frappuccino,Rating,7,1746908711
+CUST_0137,Caffe Latte,Rating,9,1750796711
+CUST_0032,Cold Brew,Rating,6,1757967911
+CUST_0055,Flat White,Rating,7,1759609511
+CUST_0195,Pink Drink,Rating,8,1758918311
+CUST_0088,Vanilla Bean Frappuccino,Rating,8,1755289511
+CUST_0156,Pumpkin Cream Cold Brew,Rating,9,1745007911
+CUST_0142,Flat White,Rating,5,1752092711
+CUST_0047,Iced Caffe Americano,Rating,8,1751315111
+CUST_0083,Java Chip Frappuccino,Rating,9,1751487911
+CUST_0164,Java Chip Frappuccino,Rating,10,1753993511
+CUST_0015,Pecan Crunch Oatmilk Latte,Rating,10,1752351911
+CUST_0165,Paradise Drink,Rating,5,1752870311
+CUST_0167,Strawberry Açaí Refresher,Rating,10,1749759911
+CUST_0152,Iced Caffe Americano,Rating,10,1749068711
+CUST_0198,Iced Matcha Latte,Rating,5,1747772711
+CUST_0035,Caffe Americano,Rating,8,1744403111
+CUST_0183,Caramel Frappuccino,Rating,6,1745871911
+CUST_0116,Pecan Crunch Oatmilk Latte,Rating,10,1757190311
+CUST_0146,Flat White,Rating,9,1748463911
+CUST_0101,Espresso,Rating,9,1749068711
+CUST_0073,Cappuccino,Rating,6,1751228711
+CUST_0135,Caffe Latte,Rating,9,1751747111
+CUST_0026,Paradise Drink,Rating,9,1745958311
+CUST_0025,Matcha Green Tea Latte,Rating,6,1746217511
+CUST_0153,Pink Drink,Rating,7,1755807911
+CUST_0198,Caffe Americano,Rating,9,1749241511
+CUST_0035,Iced Brown Sugar Oatmilk Shaken Espresso,Rating,8,1750191911
+CUST_0198,Pumpkin Cream Cold Brew,Rating,9,1750105511
+CUST_0018,Matcha Green Tea Latte,Rating,10,1753302311
+CUST_0163,Strawberry Açaí Refresher,Rating,8,1748118311
+CUST_0153,Pink Drink,Rating,8,1749241511
+CUST_0183,Pumpkin Cream Cold Brew,Rating,5,1754943911
+CUST_0047,Nitro Cold Brew,Rating,9,1748723111
+CUST_0177,Pecan Crunch Oatmilk Latte,Rating,10,1753993511
+CUST_0048,Iced Pumpkin Spice Latte,Rating,8,1750537511
+CUST_0167,Iced Chai Tea Latte,Rating,8,1755980711
+CUST_0045,Espresso,Rating,7,1747340711
+CUST_0137,Chai Tea Latte,Rating,10,1744835111
+CUST_0020,Strawberry Açaí Refresher,Rating,5,1753129511
+CUST_0111,Espresso,Rating,10,1753647911
+CUST_0023,Java Chip Frappuccino,Rating,7,1751747111
+CUST_0004,Nitro Cold Brew,Rating,10,1747513511
+CUST_0095,Cold Brew,Rating,6,1758918311
+CUST_0117,Espresso,Rating,9,1747081511
+CUST_0094,Iced Brown Sugar Oatmilk Shaken Espresso,Rating,7,1753302311
+CUST_0125,Java Chip Frappuccino,Rating,8,1753215911
+CUST_0198,Caffe Latte,Rating,8,1751574311
+CUST_0057,Iced Matcha Latte,Rating,7,1755894311
+CUST_0011,Iced Caffe Americano,Rating,5,1751833511
+CUST_0163,Iced Pumpkin Spice Latte,Rating,5,1745612711
+CUST_0152,Pumpkin Spice Latte,Rating,8,1753129511
+CUST_0130,Iced Brown Sugar Oatmilk Shaken Espresso,Rating,7,1758313511
+CUST_0066,Iced Pumpkin Spice Latte,Rating,8,1759091111
+CUST_0080,Pumpkin Spice Latte,Rating,7,1755980711
+CUST_0068,Java Chip Frappuccino,Rating,10,1744489511
+CUST_0028,Iced Chai Tea Latte,Rating,8,1752265511
+CUST_0196,Mango Dragonfruit Refresher,Rating,7,1756758311
+CUST_0034,Paradise Drink,Rating,7,1757622311
+CUST_0149,Matcha Green Tea Latte,Rating,6,1747945511
+CUST_0034,Cappuccino,Rating,7,1755894311
+CUST_0111,Mocha Frappuccino,Rating,7,1750451111
+CUST_0161,Vanilla Bean Frappuccino,Rating,8,1747081511
+CUST_0189,Mango Dragonfruit Refresher,Rating,9,1753475111
+CUST_0098,Caffe Americano,Rating,8,1750883111
+CUST_0007,Chai Tea Latte,Rating,5,1753907111
+CUST_0040,Mango Dragonfruit Refresher,Rating,5,1759263911
+CUST_0166,Iced Pumpkin Spice Latte,Rating,9,1759263911
+CUST_0171,Nitro Cold Brew,Rating,8,1746563111
+CUST_0156,Chai Tea Latte,Rating,8,1751228711
+CUST_0047,Matcha Green Tea Latte,Rating,8,1746649511
+CUST_0052,Pink Drink,Rating,10,1745612711
+CUST_0001,Pumpkin Cream Cold Brew,Rating,7,1749327911
+CUST_0082,Java Chip Frappuccino,Rating,8,1745267111
+CUST_0023,Caffe Mocha,Rating,8,1754943911
+CUST_0068,Iced Pumpkin Spice Latte,Rating,9,1754857511
+CUST_0179,Caffe Americano,Rating,8,1745007911
+CUST_0154,Cold Brew,Rating,5,1759263911
+CUST_0196,Caramel Frappuccino,Rating,8,1745439911
+CUST_0018,Strawberry Açaí Refresher,Rating,7,1756499111
+CUST_0179,Iced Brown Sugar Oatmilk Shaken Espresso,Rating,9,1757276711
+CUST_0135,Iced Chai Tea Latte,Rating,7,1759609511
+CUST_0080,Caffe Mocha,Rating,6,1759263911
+CUST_0109,Pecan Crunch Oatmilk Latte,Rating,6,1746908711
+CUST_0174,Caffe Mocha,Rating,9,1755289511
+CUST_0053,Caffe Mocha,Rating,9,1750191911
+CUST_0058,Java Chip Frappuccino,Rating,6,1744748711
+CUST_0163,Espresso,Rating,9,1752956711
+CUST_0020,Java Chip Frappuccino,Rating,10,1749673511
+CUST_0004,Espresso,Rating,9,1757708711
+CUST_0144,Pumpkin Spice Latte,Rating,9,1745958311
+CUST_0059,Paradise Drink,Rating,5,1753129511
+CUST_0062,Caffe Americano,Rating,6,1752092711
+CUST_0090,Mocha Frappuccino,Rating,5,1753907111
+CUST_0060,Strawberry Açaí Refresher,Rating,8,1757535911
+CUST_0090,Pecan Crunch Oatmilk Latte,Rating,9,1749759911
+CUST_0107,Iced Brown Sugar Oatmilk Shaken Espresso,Rating,6,1748463911
+CUST_0077,Caffe Mocha,Rating,6,1744835111
+CUST_0188,Iced Chai Tea Latte,Rating,7,1759177511
+CUST_0129,Mango Dragonfruit Refresher,Rating,8,1750451111
+CUST_0038,Iced Matcha Latte,Rating,5,1750710311
+CUST_0182,Caffe Latte,Rating,7,1746995111
+CUST_0199,Iced Matcha Latte,Rating,8,1758399911
+CUST_0180,Vanilla Bean Frappuccino,Rating,9,1751574311
+CUST_0048,Caffe Americano,Rating,6,1754166311
+CUST_0174,Iced Chai Tea Latte,Rating,5,1753820711
+CUST_0129,Iced Pumpkin Spice Latte,Rating,9,1745353511
+CUST_0092,Vanilla Bean Frappuccino,Rating,8,1758659111
+CUST_0151,Cappuccino,Rating,5,1757622311
+CUST_0118,Matcha Green Tea Latte,Rating,7,1753907111
+CUST_0020,Iced Matcha Latte,Rating,8,1747945511
+CUST_0136,Iced Brown Sugar Oatmilk Shaken Espresso,Rating,8,1749068711
+CUST_0063,Paradise Drink,Rating,6,1748377511
+CUST_0196,Matcha Green Tea Latte,Rating,5,1752351911
+CUST_0027,Matcha Green Tea Latte,Rating,10,1754166311
+CUST_0088,Iced Caffe Americano,Rating,8,1753475111
+CUST_0123,Java Chip Frappuccino,Rating,6,1744403111
+CUST_0139,Caffe Americano,Rating,8,1746476711
+CUST_0164,Vanilla Bean Frappuccino,Rating,7,1751228711
+CUST_0175,Iced Pumpkin Spice Latte,Rating,5,1756671911
+CUST_0175,Matcha Green Tea Latte,Rating,7,1750796711
+CUST_0121,Mango Dragonfruit Refresher,Rating,6,1756671911
+CUST_0168,Paradise Drink,Rating,5,1759868711
+CUST_0097,Vanilla Bean Frappuccino,Rating,7,1752956711
+CUST_0108,Pumpkin Spice Latte,Rating,9,1747599911
+CUST_0040,Cappuccino,Rating,9,1748031911
+CUST_0055,Pumpkin Cream Cold Brew,Rating,6,1758918311
+CUST_0053,Pumpkin Spice Latte,Rating,5,1748204711
+CUST_0180,Mocha Frappuccino,Rating,5,1755980711
+CUST_0085,Pumpkin Spice Latte,Rating,10,1748809511
+CUST_0141,Caffe Americano,Rating,10,1759782311
+CUST_0074,Iced Pumpkin Spice Latte,Rating,6,1754252711
+CUST_0049,Chai Tea Latte,Rating,5,1752092711
+CUST_0047,Iced Chai Tea Latte,Rating,10,1747599911
+CUST_0088,Caffe Americano,Rating,6,1749932711
+CUST_0075,Cold Brew,Rating,5,1747599911
+CUST_0016,Pecan Crunch Oatmilk Latte,Rating,9,1748463911
+CUST_0021,Pumpkin Spice Latte,Rating,10,1759955111
+CUST_0077,Strawberry Açaí Refresher,Rating,10,1759868711
+CUST_0097,Iced Pumpkin Spice Latte,Rating,6,1749759911
+CUST_0097,Iced Chai Tea Latte,Rating,7,1756239911
+CUST_0033,Iced Caffe Americano,Rating,10,1750105511
+CUST_0192,Iced Chai Tea Latte,Rating,10,1751487911
+CUST_0144,Pumpkin Spice Latte,Rating,7,1747167911
+CUST_0031,Iced Pumpkin Spice Latte,Rating,5,1749241511
+CUST_0135,Caramel Frappuccino,Rating,9,1755203111
+CUST_0090,Chai Tea Latte,Rating,8,1754166311
+CUST_0074,Espresso,Rating,8,1756931111
+CUST_0047,Caffe Latte,Rating,9,1745871911
+CUST_0081,Caffe Americano,Rating,10,1748636711
+CUST_0100,Matcha Green Tea Latte,Rating,10,1744403111
+CUST_0117,Iced Caffe Americano,Rating,9,1752265511
+CUST_0129,Cold Brew,Rating,9,1756239911
+CUST_0184,Mango Dragonfruit Refresher,Rating,7,1758399911
+CUST_0022,Cappuccino,Rating,7,1759609511
+CUST_0068,Iced Chai Tea Latte,Rating,9,1757967911
+CUST_0095,Strawberry Açaí Refresher,Rating,7,1756499111
+CUST_0121,Flat White,Rating,8,1756671911
+CUST_0066,Vanilla Bean Frappuccino,Rating,10,1746476711
+CUST_0005,Caffe Latte,Rating,10,1756326311
+CUST_0106,Espresso,Rating,10,1749500711
+CUST_0032,Pumpkin Spice Latte,Rating,5,1747772711
+CUST_0149,Pecan Crunch Oatmilk Latte,Rating,8,1752092711
+CUST_0195,Java Chip Frappuccino,Rating,6,1745871911
+CUST_0128,Iced Matcha Latte,Rating,6,1748723111
+CUST_0073,Mango Dragonfruit Refresher,Rating,10,1748463911
+CUST_0126,Pumpkin Cream Cold Brew,Rating,7,1751574311
+CUST_0174,Iced Caffe Americano,Rating,7,1750796711
+CUST_0089,Caffe Americano,Rating,5,1753215911
+CUST_0169,Mocha Frappuccino,Rating,5,1754857511
+CUST_0131,Iced Chai Tea Latte,Rating,9,1745699111
+CUST_0067,Nitro Cold Brew,Rating,8,1749155111
+CUST_0192,Iced Caffe Americano,Rating,6,1753907111
+CUST_0123,Cappuccino,Rating,5,1757449511
+CUST_0050,Pecan Crunch Oatmilk Latte,Rating,8,1757276711
+CUST_0064,Pumpkin Cream Cold Brew,Rating,9,1750623911
+CUST_0143,Iced Brown Sugar Oatmilk Shaken Espresso,Rating,8,1749587111
+CUST_0180,Caffe Latte,Rating,5,1747945511
+CUST_0036,Pink Drink,Rating,5,1756758311
+CUST_0020,Nitro Cold Brew,Rating,10,1744575911
+CUST_0047,Pecan Crunch Oatmilk Latte,Rating,6,1754943911
+CUST_0079,Pumpkin Spice Latte,Rating,10,1746822311
+CUST_0087,Espresso,Rating,7,1750883111
+CUST_0105,Pecan Crunch Oatmilk Latte,Rating,7,1755462311
+CUST_0193,Strawberry Açaí Refresher,Rating,5,1751142311
+CUST_0192,Vanilla Bean Frappuccino,Rating,8,1759350311
+CUST_0031,Caffe Americano,Rating,10,1749327911
+CUST_0138,Iced Matcha Latte,Rating,10,1756326311
+CUST_0139,Iced Caffe Americano,Rating,8,1751315111
+CUST_0119,Pink Drink,Rating,5,1758313511
+CUST_0025,Flat White,Rating,7,1756067111
+CUST_0049,Iced Pumpkin Spice Latte,Rating,8,1745353511
+CUST_0054,Pumpkin Cream Cold Brew,Rating,6,1753561511
+CUST_0188,Strawberry Açaí Refresher,Rating,9,1750105511
+CUST_0059,Iced Brown Sugar Oatmilk Shaken Espresso,Rating,6,1745353511
+CUST_0024,Paradise Drink,Rating,8,1759523111
+CUST_0088,Iced Chai Tea Latte,Rating,6,1748723111
+CUST_0151,Caffe Mocha,Rating,6,1751660711
+CUST_0121,Java Chip Frappuccino,Rating,9,1746649511
+CUST_0060,Mango Dragonfruit Refresher,Rating,8,1746131111
+CUST_0136,Java Chip Frappuccino,Rating,6,1753561511
+CUST_0170,Cold Brew,Rating,10,1757622311
+CUST_0074,Pumpkin Cream Cold Brew,Rating,6,1745180711
+CUST_0117,Pumpkin Spice Latte,Rating,9,1753907111
+CUST_0048,Iced Caffe Americano,Rating,7,1759263911
+CUST_0190,Nitro Cold Brew,Rating,8,1750278311
+CUST_0110,Vanilla Bean Frappuccino,Rating,9,1748550311
+CUST_0021,Iced Caffe Americano,Rating,9,1755635111
+CUST_0102,Cold Brew,Rating,5,1749327911
+CUST_0052,Iced Chai Tea Latte,Rating,9,1748463911
+CUST_0063,Caffe Americano,Rating,8,1754943911
+CUST_0155,Caramel Frappuccino,Rating,9,1755462311
+CUST_0108,Matcha Green Tea Latte,Rating,9,1749846311
+CUST_0058,Paradise Drink,Rating,5,1759350311
+CUST_0096,Vanilla Bean Frappuccino,Rating,8,1759523111
+CUST_0074,Espresso,Rating,9,1754252711
+CUST_0147,Strawberry Açaí Refresher,Rating,6,1757363111
+CUST_0018,Vanilla Bean Frappuccino,Rating,8,1753820711
+CUST_0140,Iced Caffe Americano,Rating,9,1746044711
+CUST_0020,Java Chip Frappuccino,Rating,10,1745180711
+CUST_0200,Iced Chai Tea Latte,Rating,8,1746303911
+CUST_0045,Pumpkin Cream Cold Brew,Rating,8,1758486311
+CUST_0162,Java Chip Frappuccino,Rating,8,1748550311
+CUST_0157,Pumpkin Spice Latte,Rating,6,1752438311
+CUST_0048,Cappuccino,Rating,10,1748723111
+CUST_0142,Iced Caffe Americano,Rating,8,1747945511
+CUST_0004,Pink Drink,Rating,7,1759004711
+CUST_0125,Pumpkin Spice Latte,Rating,10,1754339111
+CUST_0157,Espresso,Rating,7,1748550311
+CUST_0123,Strawberry Açaí Refresher,Rating,8,1748031911
+CUST_0192,Iced Matcha Latte,Rating,6,1759436711
+CUST_0039,Caffe Mocha,Rating,6,1751487911
+CUST_0033,Iced Caffe Americano,Rating,9,1748809511
+CUST_0184,Iced Chai Tea Latte,Rating,5,1749327911
+CUST_0186,Iced Caffe Americano,Rating,6,1747513511
+CUST_0141,Caffe Americano,Rating,10,1759868711
+CUST_0105,Espresso,Rating,5,1749068711
+CUST_0067,Cappuccino,Rating,7,1748291111
+CUST_0196,Iced Brown Sugar Oatmilk Shaken Espresso,Rating,9,1754339111
+CUST_0095,Paradise Drink,Rating,6,1758831911
+CUST_0059,Iced Caffe Americano,Rating,5,1745180711
+CUST_0085,Iced Brown Sugar Oatmilk Shaken Espresso,Rating,10,1749673511
+CUST_0110,Iced Caffe Americano,Rating,5,1758831911
+CUST_0015,Mango Dragonfruit Refresher,Rating,9,1748291111
+CUST_0150,Iced Brown Sugar Oatmilk Shaken Espresso,Rating,7,1750105511
+CUST_0162,Iced Chai Tea Latte,Rating,8,1756153511
+CUST_0113,Cold Brew,Rating,8,1749414311
+CUST_0003,Iced Matcha Latte,Rating,9,1750710311
+CUST_0054,Cappuccino,Rating,6,1750191911
+CUST_0139,Pumpkin Cream Cold Brew,Rating,6,1755807911
+CUST_0119,Caffe Latte,Rating,7,1749932711
+CUST_0160,Caramel Frappuccino,Rating,5,1746995111
+CUST_0076,Nitro Cold Brew,Rating,9,1753647911
+CUST_0116,Cold Brew,Rating,8,1752956711
+CUST_0023,Matcha Green Tea Latte,Rating,8,1749587111
+CUST_0154,Vanilla Bean Frappuccino,Rating,10,1745699111
+CUST_0147,Cold Brew,Rating,9,1756758311
+CUST_0133,Iced Pumpkin Spice Latte,Rating,10,1749932711
+CUST_0158,Paradise Drink,Rating,5,1752265511
+CUST_0106,Iced Caffe Americano,Rating,7,1754857511
+CUST_0095,Mango Dragonfruit Refresher,Rating,5,1757449511
+CUST_0066,Pumpkin Cream Cold Brew,Rating,8,1746044711
+CUST_0052,Pumpkin Cream Cold Brew,Rating,7,1747599911
+CUST_0199,Java Chip Frappuccino,Rating,8,1746044711
+CUST_0161,Pumpkin Cream Cold Brew,Rating,8,1753734311
+CUST_0180,Pink Drink,Rating,10,1751228711
+CUST_0152,Nitro Cold Brew,Rating,10,1757103911
+CUST_0105,Caffe Latte,Rating,5,1746563111
+CUST_0056,Paradise Drink,Rating,8,1759091111
+CUST_0122,Caffe Americano,Rating,9,1744748711
+CUST_0123,Caramel Frappuccino,Rating,6,1754943911
+CUST_0123,Pumpkin Cream Cold Brew,Rating,10,1749414311
+CUST_0064,Pink Drink,Rating,8,1747772711
+CUST_0023,Cappuccino,Rating,8,1745785511
+CUST_0019,Iced Chai Tea Latte,Rating,5,1746217511
+CUST_0130,Iced Caffe Americano,Rating,8,1753475111
+CUST_0160,Paradise Drink,Rating,6,1755894311
+CUST_0154,Paradise Drink,Rating,6,1753647911
+CUST_0139,Caramel Frappuccino,Rating,9,1755375911
+CUST_0018,Mocha Frappuccino,Rating,9,1754252711
+CUST_0161,Pumpkin Cream Cold Brew,Rating,7,1753215911
+CUST_0022,Iced Pumpkin Spice Latte,Rating,10,1753820711
+CUST_0078,Pumpkin Cream Cold Brew,Rating,8,1759350311
+CUST_0092,Mocha Frappuccino,Rating,5,1750019111
+CUST_0149,Pumpkin Cream Cold Brew,Rating,9,1753302311
+CUST_0061,Cappuccino,Rating,9,1752351911
+CUST_0097,Caffe Americano,Rating,6,1749414311
+CUST_0130,Java Chip Frappuccino,Rating,10,1752438311
+CUST_0139,Cappuccino,Rating,7,1759436711
+CUST_0119,Cold Brew,Rating,5,1755203111
+CUST_0176,Iced Matcha Latte,Rating,5,1748982311
+CUST_0173,Caffe Mocha,Rating,9,1747686311
+CUST_0009,Flat White,Rating,10,1747254311
+CUST_0133,Flat White,Rating,6,1755721511
+CUST_0099,Vanilla Bean Frappuccino,Rating,7,1747513511
+CUST_0091,Iced Caffe Americano,Rating,7,1754079911
+CUST_0093,Espresso,Rating,9,1756499111
+CUST_0116,Matcha Green Tea Latte,Rating,6,1755030311
+CUST_0052,Mango Dragonfruit Refresher,Rating,10,1746390311
+CUST_0052,Java Chip Frappuccino,Rating,8,1753561511
+CUST_0034,Espresso,Rating,6,1759782311
+CUST_0133,Cappuccino,Rating,7,1756239911
+CUST_0031,Caffe Mocha,Rating,10,1751833511
+CUST_0176,Iced Caffe Americano,Rating,6,1758227111
+CUST_0015,Chai Tea Latte,Rating,8,1751747111
+CUST_0110,Pumpkin Cream Cold Brew,Rating,5,1753043111
+CUST_0071,Iced Chai Tea Latte,Rating,7,1756931111
+CUST_0137,Vanilla Bean Frappuccino,Rating,6,1749068711
+CUST_0137,Iced Caffe Americano,Rating,10,1750623911
+CUST_0034,Pumpkin Spice Latte,Rating,10,1744835111
+CUST_0024,Chai Tea Latte,Rating,5,1752265511
+CUST_0185,Strawberry Açaí Refresher,Rating,6,1749414311
+CUST_0084,Caffe Latte,Rating,9,1748463911
+CUST_0087,Nitro Cold Brew,Rating,5,1753907111
+CUST_0155,Cold Brew,Rating,7,1749155111
+CUST_0038,Pumpkin Spice Latte,Rating,6,1755030311
+CUST_0095,Cold Brew,Rating,5,1744835111
+CUST_0039,Caffe Latte,Rating,8,1754857511
+CUST_0160,Caffe Americano,Rating,7,1751487911
+CUST_0170,Espresso,Rating,9,1758313511
+CUST_0157,Cappuccino,Rating,7,1757967911
+CUST_0192,Mango Dragonfruit Refresher,Rating,5,1759263911
+CUST_0175,Java Chip Frappuccino,Rating,6,1748809511
+CUST_0031,Caffe Latte,Rating,10,1752697511
+CUST_0139,Java Chip Frappuccino,Rating,7,1744403111
+CUST_0149,Nitro Cold Brew,Rating,5,1748723111
+CUST_0170,Iced Brown Sugar Oatmilk Shaken Espresso,Rating,5,1747513511
+CUST_0142,Caffe Latte,Rating,7,1748377511
+CUST_0007,Pecan Crunch Oatmilk Latte,Rating,9,1748550311
+CUST_0072,Caffe Mocha,Rating,7,1755375911
+CUST_0107,Iced Chai Tea Latte,Rating,7,1759004711
+CUST_0033,Cappuccino,Rating,6,1752438311
+CUST_0153,Espresso,Rating,10,1748982311
+CUST_0010,Iced Caffe Americano,Rating,9,1748291111
+CUST_0088,Iced Chai Tea Latte,Rating,10,1753561511
+CUST_0190,Pink Drink,Rating,9,1752783911
+CUST_0048,Matcha Green Tea Latte,Rating,6,1751401511
+CUST_0018,Iced Matcha Latte,Rating,10,1751142311
+CUST_0150,Flat White,Rating,7,1757449511
+CUST_0125,Nitro Cold Brew,Rating,6,1751055911
+CUST_0110,Iced Matcha Latte,Rating,7,1753475111
+CUST_0062,Caramel Frappuccino,Rating,8,1757363111
+CUST_0147,Cappuccino,Rating,5,1757535911
+CUST_0138,Strawberry Açaí Refresher,Rating,5,1748636711
+CUST_0060,Strawberry Açaí Refresher,Rating,6,1746044711
+CUST_0152,Pumpkin Cream Cold Brew,Rating,5,1744748711
+CUST_0017,Espresso,Rating,6,1756758311
+CUST_0129,Cappuccino,Rating,5,1745612711
+CUST_0149,Pumpkin Spice Latte,Rating,6,1750623911
+CUST_0038,Chai Tea Latte,Rating,8,1748895911
+CUST_0013,Matcha Green Tea Latte,Rating,9,1749932711
+CUST_0198,Caffe Americano,Rating,10,1748636711
+CUST_0018,Cappuccino,Rating,7,1759782311
+CUST_0098,Java Chip Frappuccino,Rating,5,1746735911
+CUST_0122,Caffe Mocha,Rating,5,1753561511
+CUST_0084,Iced Pumpkin Spice Latte,Rating,10,1749068711
+CUST_0084,Chai Tea Latte,Rating,8,1749327911
+CUST_0094,Flat White,Rating,10,1756067111
+CUST_0108,Iced Brown Sugar Oatmilk Shaken Espresso,Rating,7,1751315111
+CUST_0064,Mocha Frappuccino,Rating,9,1756239911
+CUST_0012,Java Chip Frappuccino,Rating,8,1755375911
+CUST_0106,Flat White,Rating,6,1747513511
+CUST_0136,Nitro Cold Brew,Rating,7,1755894311
+CUST_0031,Iced Matcha Latte,Rating,10,1744489511
+CUST_0153,Matcha Green Tea Latte,Rating,5,1750969511
+CUST_0151,Nitro Cold Brew,Rating,9,1757017511
+CUST_0024,Strawberry Açaí Refresher,Rating,9,1751142311
+CUST_0152,Pumpkin Spice Latte,Rating,5,1745612711
+CUST_0007,Caffe Americano,Rating,10,1749846311
+CUST_0048,Iced Matcha Latte,Rating,7,1745785511
+CUST_0078,Iced Brown Sugar Oatmilk Shaken Espresso,Rating,7,1757449511
+CUST_0129,Pumpkin Cream Cold Brew,Rating,5,1754166311
+CUST_0066,Mango Dragonfruit Refresher,Rating,5,1749932711
+CUST_0172,Paradise Drink,Rating,10,1755116711
+CUST_0096,Pumpkin Spice Latte,Rating,9,1745526311
+CUST_0173,Cappuccino,Rating,5,1753215911
+CUST_0179,Chai Tea Latte,Rating,8,1744835111
+CUST_0031,Iced Matcha Latte,Rating,10,1745612711
+CUST_0101,Iced Caffe Americano,Rating,5,1753129511
+CUST_0124,Pumpkin Spice Latte,Rating,5,1748723111
+CUST_0025,Cold Brew,Rating,6,1755030311
+CUST_0094,Iced Caffe Americano,Rating,10,1750537511
+CUST_0054,Iced Matcha Latte,Rating,7,1757535911
+CUST_0027,Flat White,Rating,7,1758745511
+CUST_0170,Pink Drink,Rating,5,1755548711
+CUST_0037,Iced Matcha Latte,Rating,6,1756326311
+CUST_0057,Iced Brown Sugar Oatmilk Shaken Espresso,Rating,5,1757017511
+CUST_0023,Vanilla Bean Frappuccino,Rating,6,1748291111
+CUST_0146,Java Chip Frappuccino,Rating,8,1750451111
+CUST_0083,Caffe Americano,Rating,8,1750105511
+CUST_0089,Matcha Green Tea Latte,Rating,8,1753993511
+CUST_0075,Java Chip Frappuccino,Rating,7,1758659111
+CUST_0037,Iced Pumpkin Spice Latte,Rating,7,1745353511
+CUST_0043,Caffe Americano,Rating,5,1750191911
+CUST_0120,Cappuccino,Rating,9,1754511911
+CUST_0017,Caramel Frappuccino,Rating,9,1751574311
+CUST_0171,Pink Drink,Rating,5,1751487911
+CUST_0151,Strawberry Açaí Refresher,Rating,9,1747686311
+CUST_0096,Matcha Green Tea Latte,Rating,5,1748463911
+CUST_0071,Iced Caffe Americano,Rating,8,1749846311
+CUST_0145,Pink Drink,Rating,9,1749587111
+CUST_0047,Iced Caffe Americano,Rating,9,1753820711
+CUST_0154,Iced Brown Sugar Oatmilk Shaken Espresso,Rating,5,1744921511
+CUST_0007,Caffe Latte,Rating,9,1750105511
+CUST_0116,Caramel Frappuccino,Rating,9,1757363111
+CUST_0147,Nitro Cold Brew,Rating,6,1746735911
+CUST_0192,Pumpkin Spice Latte,Rating,5,1753215911
+CUST_0109,Espresso,Rating,9,1745871911
+CUST_0072,Matcha Green Tea Latte,Rating,6,1756326311
+CUST_0173,Iced Caffe Americano,Rating,7,1748463911
+CUST_0091,Pumpkin Cream Cold Brew,Rating,9,1750105511
+CUST_0192,Iced Brown Sugar Oatmilk Shaken Espresso,Rating,7,1745958311
+CUST_0107,Iced Matcha Latte,Rating,8,1748723111
+CUST_0178,Mango Dragonfruit Refresher,Rating,10,1757363111
+CUST_0072,Cappuccino,Rating,6,1744575911
+CUST_0154,Chai Tea Latte,Rating,8,1755289511
+CUST_0115,Pumpkin Cream Cold Brew,Rating,10,1754252711
+CUST_0096,Pecan Crunch Oatmilk Latte,Rating,6,1759091111
+CUST_0183,Caffe Latte,Rating,10,1748636711
+CUST_0062,Cold Brew,Rating,6,1757103911
+CUST_0102,Iced Pumpkin Spice Latte,Rating,10,1745526311
+CUST_0117,Iced Pumpkin Spice Latte,Rating,5,1745007911
+CUST_0160,Pumpkin Spice Latte,Rating,8,1754339111
+CUST_0200,Paradise Drink,Rating,6,1745612711
+CUST_0189,Pumpkin Cream Cold Brew,Rating,5,1758745511
+CUST_0029,Iced Chai Tea Latte,Rating,8,1755462311
+CUST_0168,Matcha Green Tea Latte,Rating,6,1746822311
+CUST_0074,Mocha Frappuccino,Rating,7,1752524711
+CUST_0020,Strawberry Açaí Refresher,Rating,9,1755289511
+CUST_0018,Mocha Frappuccino,Rating,7,1758227111
+CUST_0161,Pecan Crunch Oatmilk Latte,Rating,6,1748723111
+CUST_0046,Caffe Americano,Rating,8,1744489511
+CUST_0030,Paradise Drink,Rating,8,1754511911
+CUST_0001,Strawberry Açaí Refresher,Rating,6,1750537511
+CUST_0026,Flat White,Rating,7,1755462311
+CUST_0153,Cappuccino,Rating,8,1750710311
+CUST_0036,Flat White,Rating,5,1759695911
+CUST_0052,Cappuccino,Rating,5,1751574311
+CUST_0161,Flat White,Rating,7,1757881511
+CUST_0111,Pumpkin Cream Cold Brew,Rating,5,1753388711
+CUST_0130,Caffe Latte,Rating,7,1745785511
+CUST_0191,Pink Drink,Rating,10,1754339111
+CUST_0034,Vanilla Bean Frappuccino,Rating,9,1745699111
+CUST_0040,Caramel Frappuccino,Rating,8,1758399911
+CUST_0103,Espresso,Rating,5,1756931111
+CUST_0124,Mocha Frappuccino,Rating,9,1750796711
+CUST_0195,Chai Tea Latte,Rating,7,1748809511
+CUST_0064,Vanilla Bean Frappuccino,Rating,6,1750969511
+CUST_0105,Flat White,Rating,5,1747686311
+CUST_0185,Vanilla Bean Frappuccino,Rating,10,1749673511
+CUST_0008,Vanilla Bean Frappuccino,Rating,9,1755894311
+CUST_0155,Caffe Latte,Rating,8,1756067111
+CUST_0008,Mango Dragonfruit Refresher,Rating,8,1746303911
+CUST_0077,Caffe Latte,Rating,7,1744662311
+CUST_0196,Pumpkin Spice Latte,Rating,5,1744835111
+CUST_0004,Pink Drink,Rating,8,1757103911
+CUST_0171,Caffe Americano,Rating,10,1753043111
+CUST_0167,Iced Caffe Americano,Rating,10,1755548711
+CUST_0073,Mocha Frappuccino,Rating,6,1757622311
+CUST_0107,Strawberry Açaí Refresher,Rating,5,1745439911
+CUST_0104,Caramel Frappuccino,Rating,10,1749068711
+CUST_0107,Caramel Frappuccino,Rating,9,1752006311
+CUST_0016,Strawberry Açaí Refresher,Rating,7,1755721511
+CUST_0134,Caffe Latte,Rating,10,1759177511
+CUST_0155,Caffe Americano,Rating,7,1752524711
+CUST_0004,Iced Matcha Latte,Rating,5,1756844711
+CUST_0032,Iced Brown Sugar Oatmilk Shaken Espresso,Rating,8,1751228711
+CUST_0015,Caramel Frappuccino,Rating,6,1759350311
+CUST_0014,Iced Chai Tea Latte,Rating,7,1745612711
+CUST_0053,Pink Drink,Rating,5,1756412711
+CUST_0092,Cappuccino,Rating,9,1755807911
+CUST_0052,Iced Matcha Latte,Rating,10,1745353511
+CUST_0099,Flat White,Rating,9,1756931111
+CUST_0186,Matcha Green Tea Latte,Rating,6,1746563111
+CUST_0163,Flat White,Rating,9,1749500711
+CUST_0161,Iced Brown Sugar Oatmilk Shaken Espresso,Rating,8,1746649511
+CUST_0158,Nitro Cold Brew,Rating,8,1752092711
+CUST_0089,Caffe Americano,Rating,10,1753215911
+CUST_0110,Caramel Frappuccino,Rating,8,1752265511
+CUST_0145,Paradise Drink,Rating,8,1757103911
+CUST_0156,Iced Pumpkin Spice Latte,Rating,7,1752265511
+CUST_0068,Caramel Frappuccino,Rating,5,1755116711
+CUST_0016,Mango Dragonfruit Refresher,Rating,10,1755807911
+CUST_0022,Chai Tea Latte,Rating,10,1748377511
+CUST_0067,Caramel Frappuccino,Rating,7,1749327911
+CUST_0044,Pumpkin Cream Cold Brew,Rating,10,1744489511
+CUST_0046,Paradise Drink,Rating,7,1750278311
+CUST_0071,Pecan Crunch Oatmilk Latte,Rating,6,1759436711
+CUST_0159,Caffe Mocha,Rating,9,1749241511
+CUST_0102,Iced Brown Sugar Oatmilk Shaken Espresso,Rating,6,1756067111
+CUST_0033,Caramel Frappuccino,Rating,10,1755548711
+CUST_0009,Matcha Green Tea Latte,Rating,10,1758831911
+CUST_0087,Iced Pumpkin Spice Latte,Rating,8,1754339111
+CUST_0099,Pumpkin Spice Latte,Rating,7,1746822311
+CUST_0123,Iced Pumpkin Spice Latte,Rating,8,1745958311
+CUST_0008,Iced Matcha Latte,Rating,8,1755548711
+CUST_0059,Paradise Drink,Rating,10,1757190311
+CUST_0119,Pumpkin Cream Cold Brew,Rating,9,1753215911
+CUST_0162,Mango Dragonfruit Refresher,Rating,10,1749068711
+CUST_0068,Paradise Drink,Rating,8,1752870311
+CUST_0159,Iced Caffe Americano,Rating,9,1752438311
+CUST_0192,Nitro Cold Brew,Rating,10,1750105511
+CUST_0118,Caramel Frappuccino,Rating,7,1759436711
+CUST_0032,Pumpkin Spice Latte,Rating,9,1750105511
+CUST_0021,Matcha Green Tea Latte,Rating,8,1750191911
+CUST_0020,Iced Caffe Americano,Rating,9,1758745511
+CUST_0179,Caffe Mocha,Rating,6,1749587111
+CUST_0064,Cappuccino,Rating,9,1755203111
+CUST_0058,Iced Chai Tea Latte,Rating,7,1747772711
+CUST_0178,Strawberry Açaí Refresher,Rating,7,1751315111
+CUST_0110,Flat White,Rating,10,1754943911
+CUST_0159,Pink Drink,Rating,8,1746735911
+CUST_0173,Iced Chai Tea Latte,Rating,10,1759782311
+CUST_0178,Java Chip Frappuccino,Rating,7,1747513511
+CUST_0085,Mocha Frappuccino,Rating,9,1749241511
+CUST_0050,Cold Brew,Rating,9,1749673511
+CUST_0001,Caffe Mocha,Rating,10,1758054311
+CUST_0152,Pink Drink,Rating,9,1747081511
+CUST_0016,Strawberry Açaí Refresher,Rating,7,1756412711
+CUST_0145,Cold Brew,Rating,6,1759782311
+CUST_0085,Caffe Americano,Rating,9,1753734311
+CUST_0161,Cold Brew,Rating,6,1754079911
+CUST_0135,Iced Chai Tea Latte,Rating,8,1756239911
+CUST_0160,Iced Chai Tea Latte,Rating,5,1757967911
+CUST_0199,Caffe Latte,Rating,7,1754339111
+CUST_0128,Espresso,Rating,5,1744489511
+CUST_0061,Caffe Americano,Rating,10,1747427111
+CUST_0062,Caramel Frappuccino,Rating,8,1750191911
+CUST_0165,Pecan Crunch Oatmilk Latte,Rating,10,1755289511
+CUST_0050,Iced Matcha Latte,Rating,9,1759263911
+CUST_0193,Strawberry Açaí Refresher,Rating,7,1746044711
+CUST_0145,Espresso,Rating,9,1746390311
+CUST_0064,Caffe Latte,Rating,5,1759523111
+CUST_0186,Cold Brew,Rating,5,1744403111
+CUST_0057,Cold Brew,Rating,10,1750883111
+CUST_0077,Iced Matcha Latte,Rating,6,1749414311
+CUST_0175,Iced Matcha Latte,Rating,8,1759955111
+CUST_0093,Iced Chai Tea Latte,Rating,6,1759955111
+CUST_0059,Caramel Frappuccino,Rating,9,1752006311
+CUST_0008,Java Chip Frappuccino,Rating,10,1750019111
+CUST_0135,Iced Pumpkin Spice Latte,Rating,8,1752783911
+CUST_0064,Paradise Drink,Rating,9,1749414311
+CUST_0030,Paradise Drink,Rating,10,1749327911
+CUST_0018,Iced Pumpkin Spice Latte,Rating,6,1759004711
+CUST_0087,Flat White,Rating,5,1747081511
+CUST_0089,Strawberry Açaí Refresher,Rating,5,1750191911
+CUST_0073,Iced Chai Tea Latte,Rating,9,1753129511
+CUST_0152,Iced Brown Sugar Oatmilk Shaken Espresso,Rating,9,1744489511
+CUST_0026,Caffe Mocha,Rating,5,1746908711
+CUST_0083,Strawberry Açaí Refresher,Rating,10,1744403111
+CUST_0168,Espresso,Rating,6,1752265511

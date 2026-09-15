@@ -1,0 +1,254 @@
+aws personalize create-schema --name MyInteractionsSchema --schema "file://interactions-schema.json"
+aws personalize create-schema --name MyUsersSchema --schema "file://users-schema.json"
+aws personalize create-schema --name MyItemsSchema --schema "file://items-schema.json"
+
+
+~ $ aws personalize create-schema --name MyInteractionsSchema --schema "file://interactions-schema.json"
+{
+    "schemaArn": "arn:aws:personalize:us-east-2:548722509238:schema/MyInteractionsSchema"
+}
+~ $ aws personalize create-schema --name MyUsersSchema --schema "file://users-schema.json"
+{
+    "schemaArn": "arn:aws:personalize:us-east-2:548722509238:schema/MyUsersSchema"
+}
+~ $ aws personalize create-schema --name MyItemsSchema --schema "file://items-schema.json"
+{
+    "schemaArn": "arn:aws:personalize:us-east-2:548722509238:schema/MyItemsSchema"
+}
+~ $ 
+
+aws personalize create-dataset --name MyInteractionsDataset --dataset-type Interactions --dataset-group-arn "arn:aws:personalize:us-east-2:548722509238:dataset-group/MyRecommendationSystem" --schema-arn "arn:aws:personalize:us-east-2:548722509238:schema/MyInteractionsSchema"
+aws personalize create-dataset --name MyUsersDataset --dataset-type Users --dataset-group-arn "arn:aws:personalize:us-east-2:548722509238:dataset-group/MyRecommendationSystem" --schema-arn "arn:aws:personalize:us-east-2:548722509238:schema/MyUsersSchema"
+aws personalize create-dataset --name MyItemsDataset --dataset-type Items --dataset-group-arn "arn:aws:personalize:us-east-2:548722509238:dataset-group/MyRecommendationSystem" --schema-arn "arn:aws:personalize:us-east-2:548722509238:schema/MyItemsSchema"
+
+~ $ aws personalize create-dataset --name MyInteractionsDataset --dataset-type Interactions --dataset-group-arn "arn:aws:personalize:us-east-2:548722509238:dataset-group/MyRecommendationSystem" --schema-arn "arn:aws:personalize:us-east-2:548722509238:schema/MyInteractionsSchema"
+{
+    "datasetArn": "arn:aws:personalize:us-east-2:548722509238:dataset/MyRecommendationSystem/INTERACTIONS"
+}
+~ $ 
+~ $ aws personalize create-dataset --name MyUsersDataset --dataset-type Interactions --dataset-group-arn "arn:aws:personalize:us-east-2:548722509238:dataset-group/MyRecommendationSystem" --schema-arn "arn:aws:personalize:us-east-2:548722509238:schema/MyUsersSchema"
+
+aws: [ERROR]: An error occurred (InvalidInputException) when calling the CreateDataset operation: A dataset of type INTERACTIONS cannot use a schema of type Users
+~ $ aws personalize create-dataset --name MyUsersDataset --dataset-type Users --dataset-group-arn "arn:aws:personalize:us-east-2:548722509238:dataset-group/MyRecommendationSystem" --schema-arn "arn:aws:personalize:us-east-2:548722509238:schema/MyUsersSchema"
+{
+    "datasetArn": "arn:aws:personalize:us-east-2:548722509238:dataset/MyRecommendationSystem/USERS"
+}
+~ $ aws personalize create-dataset --name MyItemsDataset --dataset-type Items --dataset-group-arn "arn:aws:personalize:us-east-2:548722509238:dataset-group/MyRecommendationSystem" --schema-arn "arn:aws:personalize:us-east-2:548722509238:schema/MyItemsSchema"
+{
+    "datasetArn": "arn:aws:personalize:us-east-2:548722509238:dataset/MyRecommendationSystem/ITEMS"
+}
+
+arn:aws:iam::548722509238:role/PersonalizeS3BucketAccess
+
+s3://dtsc-671-personalize-streaming-fa1-2026-cnielson/item_interactions_streaming.csv
+s3://dtsc-671-personalize-streaming-fa1-2026-cnielson/items_streaming.csv
+s3://dtsc-671-personalize-streaming-fa1-2026-cnielson/users_streaming.csv
+
+
+aws personalize create-dataset-import-job --job-name MyInteractionsImportJob --dataset-arn "arn:aws:personalize:us-east-2:548722509238:dataset/MyRecommendationSystem/INTERACTIONS" --data-source "dataLocation=s3://dtsc-671-personalize-streaming-fa1-2026-cnielson/item_interactions_streaming.csv" --role-arn "arn:aws:iam::548722509238:role/PersonalizeS3BucketAccess"
+aws personalize create-dataset-import-job --job-name MyUsersImportJob --dataset-arn "arn:aws:personalize:us-east-2:548722509238:dataset/MyRecommendationSystem/USERS" --data-source "dataLocation=s3://dtsc-671-personalize-streaming-fa1-2026-cnielson/users_streaming.csv" --role-arn "arn:aws:iam::548722509238:role/PersonalizeS3BucketAccess"
+aws personalize create-dataset-import-job --job-name MyItemsImportJob --dataset-arn "arn:aws:personalize:us-east-2:548722509238:dataset/MyRecommendationSystem/ITEMS" --data-source "dataLocation=s3://dtsc-671-personalize-streaming-fa1-2026-cnielson/items_streaming.csv" --role-arn "arn:aws:iam::548722509238:role/PersonalizeS3BucketAccess"
+
+~ $ aws personalize create-dataset-import-job --job-name MyInteractionsImportJob --dataset-arn "arn:aws:personalize:us-east-2:548722509238:dataset/MyRecommendationSystem/INTERACTIONS" --data-source "dataLocation=s3://dtsc-671-personalize-streaming-fa1-2026-cnielson/item_interactions_streaming.csv" --role-arn "arn:aws:iam::548722509238:role/PersonalizeS3BucketAccess"
+{
+    "datasetImportJobArn": "arn:aws:personalize:us-east-2:548722509238:dataset-import-job/MyInteractionsImportJob"
+}
+~ $ aws personalize create-dataset-import-job --job-name MyUsersImportJob --dataset-arn "arn:aws:personalize:us-east-2:548722509238:dataset/MyRecommendationSystem/USERS" --data-source "dataLocation=s3://dtsc-671-personalize-streaming-fa1-2026-cnielson/users_streaming.csv" --role-arn "arn:aws:iam::548722509238:role/PersonalizeS3BucketAccess"
+{
+    "datasetImportJobArn": "arn:aws:personalize:us-east-2:548722509238:dataset-import-job/MyUsersImportJob"
+}
+~ $ aws personalize create-dataset-import-job --job-name MyItemsImportJob --dataset-arn "arn:aws:personalize:us-east-2:548722509238:dataset/MyRecommendationSystem/ITEMS" --data-source "dataLocation=s3://dtsc-671-personalize-streaming-fa1-2026-cnielson/items_streaming.csv" --role-arn "arn:aws:iam::548722509238:role/PersonalizeS3BucketAccess"
+{
+    "datasetImportJobArn": "arn:aws:personalize:us-east-2:548722509238:dataset-import-job/MyItemsImportJob"
+}
+
+4.  Train the model (Create a solution)
+
+aws personalize create-solution --name MyUserPersonalizationSolution --dataset-group-arn "arn:aws:personalize:us-east-2:548722509238:dataset-group/MyRecommendationSystem" --recipe-arn "arn:aws:personalize:::recipe/aws-user-personalization"
+{
+    "solutionArn": "arn:aws:personalize:us-east-2:548722509238:solution/MyUserPersonalizationSolution"
+}
+
+
+--This command take time and incurs charges
+aws personalize create-solution-version --solution-arn "arn:aws:personalize:us-east-2:548722509238:solution/MyUserPersonalizationSolution"
+{
+    "solutionVersionArn": "arn:aws:personalize:us-east-2:548722509238:solution/MyUserPersonalizationSolution/6c09d723"
+}
+
+
+aws personalize describe-solution-version --solution-version-arn "arn:aws:personalize:us-east-2:548722509238:solution/MyUserPersonalizationSolution/6c09d723"
+{
+    "solutionVersion": {
+        "name": "MyUserPersonalizationSolution/6c09d723",
+        "solutionVersionArn": "arn:aws:personalize:us-east-2:548722509238:solution/MyUserPersonalizationSolution/6c09d723",
+        "solutionArn": "arn:aws:personalize:us-east-2:548722509238:solution/MyUserPersonalizationSolution",
+        "performHPO": false,
+        "performAutoML": false,
+        "recipeArn": "arn:aws:personalize:::recipe/aws-user-personalization",
+        "datasetGroupArn": "arn:aws:personalize:us-east-2:548722509238:dataset-group/MyRecommendationSystem",
+        "solutionConfig": {
+            "autoTrainingConfig": {
+                "schedulingExpression": "rate(7 days)"
+            }
+        },
+        "trainingMode": "FULL",
+        "status": "CREATE IN_PROGRESS",
+        "creationDateTime": "2026-09-12T16:05:58.014000+00:00",
+        "lastUpdatedDateTime": "2026-09-12T16:06:20.089000+00:00",
+        "trainingType": "MANUAL"
+    }
+}
+
+~ $ aws personalize describe-solution-version --solution-version-arn "arn:aws:personalize:us-east-2:548722509238:solution/MyUserPersonalizationSolution/6c09d723"
+{
+    "solutionVersion": {
+        "name": "MyUserPersonalizationSolution/6c09d723",
+        "solutionVersionArn": "arn:aws:personalize:us-east-2:548722509238:solution/MyUserPersonalizationSolution/6c09d723",
+        "solutionArn": "arn:aws:personalize:us-east-2:548722509238:solution/MyUserPersonalizationSolution",
+        "performHPO": false,
+        "performAutoML": false,
+        "recipeArn": "arn:aws:personalize:::recipe/aws-user-personalization",
+        "datasetGroupArn": "arn:aws:personalize:us-east-2:548722509238:dataset-group/MyRecommendationSystem",
+        "solutionConfig": {
+            "autoTrainingConfig": {
+                "schedulingExpression": "rate(7 days)"
+            }
+        },
+        "trainingHours": 0.762,
+        "trainingMode": "FULL",
+        "status": "ACTIVE",
+        "creationDateTime": "2026-09-12T16:05:58.014000+00:00",
+        "lastUpdatedDateTime": "2026-09-12T16:20:53.287000+00:00",
+        "trainingType": "MANUAL"
+    }
+}
+
+5. Deploy the model (Create a campaign) takes a while
+
+aws personalize create-campaign --name MyRecommendationCampaign --solution-version-arn "arn:aws:personalize:us-east-2:548722509238:solution/MyUserPersonalizationSolution/6c09d723" --min-provisioned-tps 1
+~ $ aws personalize create-campaign --name MyRecommendationCampaign --solution-version-arn "arn:aws:personalize:us-east-2:548722509238:solution/MyUserPersonalizationSolution/6c09d723" --min-provisioned-tps 1
+{
+    "campaignArn": "arn:aws:personalize:us-east-2:548722509238:campaign/MyRecommendationCampaign"
+}
+
+~ $ aws personalize describe-campaign --campaign-arn "arn:aws:personalize:us-east-2:548722509238:campaign/drink-campaign-cnielson"
+{
+    "campaign": {
+        "name": "drink-campaign-cnielson",
+        "campaignArn": "arn:aws:personalize:us-east-2:548722509238:campaign/drink-campaign-cnielson",
+        "solutionVersionArn": "arn:aws:personalize:us-east-2:548722509238:solution/drink-solution-cnielson/c60ce9ae",
+        "minProvisionedTPS": 1,
+        "campaignConfig": {
+            "enableMetadataWithRecommendations": true
+        },
+        "status": "CREATE IN_PROGRESS",
+        "creationDateTime": "2026-09-12T18:16:13.896000+00:00",
+        "lastUpdatedDateTime": "2026-09-12T18:16:40.603000+00:00"
+    }
+}
+
+
+aws personalize-runtime get-recommendations --campaign-arn "arn:aws:personalize:us-east-2:548722509238:campaign/MyRecommendationCampaign" --user-id "user_004"
+
+~ $ aws personalize-runtime get-recommendations --campaign-arn "arn:aws:personalize:us-east-2:548722509238:campaign/MyRecommendationCampaign" --user-id "user_004"
+{
+    "itemList": [
+        {
+            "itemId": "movie_RRRRRRRRRRRR",
+            "score": 0.0085443
+        },
+        {
+            "itemId": "series_QQQQQQQQQ",
+            "score": 0.007862
+        },
+        {
+            "itemId": "series_NNNNNNNNNNN",
+            "score": 0.0078237
+        },
+        {
+            "itemId": "movie_LLLLLLLLLLLL",
+            "score": 0.0077271
+        },
+        {
+            "itemId": "series_IIIIII",
+            "score": 0.0074947
+        },
+        {
+            "itemId": "movie_JJJJJJJJJ",
+            "score": 0.0070683
+        },
+        {
+            "itemId": "series_LLLLLLLLLL",
+            "score": 0.0070114
+        },
+        {
+            "itemId": "movie_XXXXXXXX",
+            "score": 0.0069035
+        },
+        {
+            "itemId": "series_SSSSSSSSS",
+            "score": 0.0068993
+        },
+        {
+            "itemId": "movie_ZZZZZZZZZZ",
+            "score": 0.0068097
+        },
+        {
+            "itemId": "series_WWWWWWW",
+            "score": 0.0067848
+        },
+        {
+            "itemId": "series_ZZZZZZZZZZ",
+            "score": 0.0064403
+        },
+        {
+            "itemId": "movie_QQQQQQQQQQ",
+            "score": 0.0061296
+        },
+        {
+            "itemId": "movie_YYYYYYYY",
+            "score": 0.0058313
+        },
+        {
+            "itemId": "series_CCCCCCCCCCCC",
+            "score": 0.0056134
+        },
+        {
+            "itemId": "movie_QQQQQQQQQQQ",
+            "score": 0.0055044
+        },
+        {
+            "itemId": "series_EEEEEEEEEE",
+            "score": 0.0054303
+        },
+        {
+            "itemId": "movie_WWWWWWW",
+            "score": 0.0053712
+        },
+        {
+            "itemId": "series_KKKKKKK",
+            "score": 0.0053166
+        },
+        {
+            "itemId": "movie_WWWWWWWW",
+            "score": 0.0052302
+        },
+        {
+        },
+        {
+            "itemId": "series_ZZZZZZZZZ",
+            "score": 0.0050731
+        },
+        {
+            "itemId": "series_LLLLLLLLLLLL",
+            "score": 0.0049678
+        },
+        {
+            "itemId": "movie_PPPPPPPPPPP",
+            "score": 0.0049591
+        }
+    ],
+    "recommendationId": "RID-2b-438a-956e-13e8f6319db1-CID-7a6ca2"
+}
+~

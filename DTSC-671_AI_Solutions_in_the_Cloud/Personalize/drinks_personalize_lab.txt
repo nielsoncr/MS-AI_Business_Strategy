@@ -1,0 +1,187 @@
+drinks personalize lab
+
+**create s3 bucket with bucket policy allowing personalize to access it
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "AllowPersonalizeFullAccess",
+            "Effect": "Allow",
+            "Principal": {
+                "Service": "personalize.amazonaws.com"
+            },
+            "Action": [
+                "s3:GetObject",
+                "s3:ListBucket",
+                "s3:PutObject",
+                "s3:GetBucketLocation"
+            ],
+            "Resource": [
+                "arn:aws:s3:::dtsc-671-personalize-input-fa1-2026-cnielson",
+                "arn:aws:s3:::dtsc-671-personalize-input-fa1-2026-cnielson/*"
+            ]
+        }
+    ]
+}
+
+**create IAM role / policy for use with Personalize
+
+{
+	"Version": "2012-10-17",
+	"Id": "PersonalizeS3BucketAccess",
+	"Statement": [
+		{
+			"Sid": "Statement1",
+			"Effect": "Allow",
+			"Action": [
+				"s3:GetObject",
+				"s3:ListBucket"
+			],
+			"Resource": [
+				"arn:aws:s3:::dtsc-671-personalize-streaming-fa1-2026-cnielson",
+				"arn:aws:s3:::dtsc-671-personalize-streaming-fa1-2026-cnielson/*",
+				"arn:aws:s3:::dtsc-671-personalize-input-fa1-2026-cnielson",
+				"arn:aws:s3:::dtsc-671-personalize-input-fa1-2026-cnielson/*"
+			]
+		},
+		{
+			"Effect": "Allow",
+			"Action": [
+				"personalize:*"
+			],
+			"Resource": "*"
+		}
+	]
+}
+
+
+** create schema for customer_orders
+~ $ nano customer_orders-schema.json
+{
+    "type": "record",
+    "name": "Interactions",
+    "namespace": "com.amazonaws.personalize.schema",
+    "fields": [
+        {
+            "name": "USER_ID",
+            "type": "string"
+        },
+        {
+            "name": "ITEM_ID",
+            "type": "string"
+        },
+        {
+            "name": "EVENT_TYPE",
+            "type": "string"
+        },
+        {
+            "name": "EVENT_VALUE",
+            "type": "float"
+        },
+        {
+            "name": "TIMESTAMP",
+            "type": "long"
+        }
+    ],
+    "version": "1.0"
+}
+
+**Create Schema
+~ $ aws personalize create-schema --name MyCustomerOrdersInteractionsSchema --schema "file://customer_orders-schema.json"
+{
+    "schemaArn": "arn:aws:personalize:us-east-2:548722509238:schema/MyCustomerOrdersInteractionsSchema"
+}
+~ $ 
+
+**Create DatasetGroup and Dataset
+
+~ $ aws personalize create-dataset-group --name dtsc-671-drink-recs-cnielson
+{
+    "datasetGroupArn": "arn:aws:personalize:us-east-2:548722509238:dataset-group/dtsc-671-drink-recs-cnielson"
+}
+~ $ aws personalize create-dataset --name MyCustomerOrdersDataset --dataset-type Interactions --dataset-group-arn "arn:aws:personalize:us-east-2:548722509238:dataset-group/dtsc-671-drink-recs-cnielson" --schema-arn "arn:aws:personalize:us-east-2:548722509238:schema/MyCustomerOrdersInteractionsSchema"
+{
+    "datasetArn": "arn:aws:personalize:us-east-2:548722509238:dataset/dtsc-671-drink-recs-cnielson/INTERACTIONS"
+}
+
+**Import dataset from s3
+~ $ aws personalize create-dataset-import-job --job-name MyCustomerOrdersInteractionsImportJob --dataset-arn "arn:aws:personalize:us-east-2:548722509238:dataset/dtsc-671-drink-recs-cnielson/INTERACTIONS" --data-source "dataLocation=s3://dtsc-671-personalize-input-fa1-2026-cnielson/customer_orders.csv" --role-arn "arn:aws:iam::548722509238:role/PersonalizeS3BucketAccess"
+{
+    "datasetImportJobArn": "arn:aws:personalize:us-east-2:548722509238:dataset-import-job/MyCustomerOrdersInteractionsImportJob"
+}
+
+
+
+**  Train the model (Create a solution) 
+# Note - must wait for Import job above to complete
+
+~ $ aws personalize create-solution --name drink-solution-cnielson --dataset-group-arn "arn:aws:personalize:us-east-2:548722509238:dataset-group/dtsc-671-drink-recs-cnielson" --recipe-arn "arn:aws:personalize:::recipe/aws-user-personalization-v2"
+{
+    "solutionArn": "arn:aws:personalize:us-east-2:548722509238:solution/drink-solution-cnielson"
+}
+~ $ 
+
+~ $ aws personalize create-solution-version --solution-arn "arn:aws:personalize:us-east-2:548722509238:solution/drink-solution-cnielson"
+{
+    "solutionVersionArn": "arn:aws:personalize:us-east-2:548722509238:solution/drink-solution-cnielson/c60ce9ae"
+}
+
+#use to monitor solution status
+~ $ aws personalize describe-solution-version --solution-version-arn "arn:aws:personalize:us-east-2:548722509238:solution/drink-solution-cnielson/c60ce9ae"
+{
+    "solutionVersion": {
+        "name": "drink-solution-cnielson/c60ce9ae",
+        "solutionVersionArn": "arn:aws:personalize:us-east-2:548722509238:solution/drink-solution-cnielson/c60ce9ae",
+        "solutionArn": "arn:aws:personalize:us-east-2:548722509238:solution/drink-solution-cnielson",
+        "performHPO": false,
+        "performAutoML": false,
+        "recipeArn": "arn:aws:personalize:::recipe/aws-user-personalization-v2",
+        "datasetGroupArn": "arn:aws:personalize:us-east-2:548722509238:dataset-group/dtsc-671-drink-recs-cnielson",
+        "solutionConfig": {
+            "autoTrainingConfig": {
+                "schedulingExpression": "rate(7 days)"
+            }
+        },
+        "trainingMode": "FULL",
+        "status": "CREATE IN_PROGRESS",
+        "creationDateTime": "2026-09-12T17:43:06.822000+00:00",
+        "lastUpdatedDateTime": "2026-09-12T17:43:19.510000+00:00",
+        "trainingType": "MANUAL"
+    }
+}
+~ $ 
+~ $ aws personalize describe-solution-version --solution-version-arn "arn:aws:personalize:us-east-2:548722509238:solution/drink-solution-cnielson/c60ce9ae"
+{
+    "solutionVersion": {
+        "name": "drink-solution-cnielson/c60ce9ae",
+        "solutionVersionArn": "arn:aws:personalize:us-east-2:548722509238:solution/drink-solution-cnielson/c60ce9ae",
+        "solutionArn": "arn:aws:personalize:us-east-2:548722509238:solution/drink-solution-cnielson",
+        "performHPO": false,
+        "performAutoML": false,
+        "recipeArn": "arn:aws:personalize:::recipe/aws-user-personalization-v2",
+        "datasetGroupArn": "arn:aws:personalize:us-east-2:548722509238:dataset-group/dtsc-671-drink-recs-cnielson",
+        "solutionConfig": {
+            "autoTrainingConfig": {
+                "schedulingExpression": "rate(7 days)"
+            }
+        },
+        "trainingHours": 0.541,
+        "trainingMode": "FULL",
+        "status": "ACTIVE",
+        "creationDateTime": "2026-09-12T17:43:06.822000+00:00",
+        "lastUpdatedDateTime": "2026-09-12T18:08:57.959000+00:00",
+        "trainingType": "MANUAL"
+    }
+}
+
+
+5. Deploy the model (Create a campaign)
+~ $ aws personalize create-campaign --name drink-campaign-cnielson --solution-version-arn "arn:aws:personalize:us-east-2:548722509238:solution/drink-solution-cnielson/c60ce9ae" --min-provisioned-tps 1
+{
+    "campaignArn": "arn:aws:personalize:us-east-2:548722509238:campaign/drink-campaign-cnielson"
+}
+
+
+Get Results from the campaign
+aws personalize-runtime get-recommendations --campaign-arn "arn:aws:personalize:us-east-2:548722509238:campaign/drink-campaign-cnielson" --user-id "CUST_0080"
