@@ -1,0 +1,3 @@
+account:548722509238
+user:dtsc625-datalake-user
+pwd:usualnextyear

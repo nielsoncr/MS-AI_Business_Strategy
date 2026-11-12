@@ -1,0 +1,4 @@
+EmployeeID,SSN,Birthday,MobileNumber,ProjectName,TaskCompletionRate,InternalTeamRole,OfficeLocation,SalaryBand
+1001,123-45-6789,11011980,760-555-1111,Alpha Project,95,Developer,Building A,Band 5
+1002,222-33-4444,10201970,760-555-2222,Beta Initiative,88,Data Scientist,Building B,Band 6
+1003,333-44-5555,12011975,760-555-3333,Gamma Program,100,Project Manager,Remote,Band 7
